@@ -5,6 +5,7 @@
     import NonogramGrid from '$lib/components/NonogramGrid.svelte';
     import NonogramClues from '$lib/components/NonogramClues.svelte';
     import StatusBar from '$lib/components/StatusBar.svelte';
+    import ThemeToggle from '$lib/components/ThemeToggle.svelte';
     
     import { getNonogramByName, createNonogram } from '$lib/api/client';
     import type { Nonogram } from '$lib/api/client';
@@ -210,7 +211,8 @@
 
 <div class="app-container">
     <header>
-        <h1>Nonogram SPA Editor</h1>
+        <h1>Nonogram Editor</h1>
+        <ThemeToggle />
     </header>
     
     <main>

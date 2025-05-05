@@ -131,6 +131,45 @@ The application interface consists of the following main areas:
 - The application works best in modern browsers (Chrome, Firefox, Edge, Safari)
 - Enable JavaScript if it's disabled in your browser
 
+## Accessibility Features
+
+### Theme Toggle
+
+The application supports both light and dark themes for better user experience and accessibility:
+
+1. **Switching Themes**: Click the theme toggle button in the top-right corner of the screen to switch between light and dark themes.
+   - Light theme is optimized for daytime usage and bright environments
+   - Dark theme reduces eye strain in low-light conditions and conserves battery on OLED displays
+
+2. **Theme Persistence**: Your theme preference is saved and will be remembered across browser sessions.
+
+### Keyboard Navigation
+
+The nonogram grid fully supports keyboard navigation for accessibility:
+
+1. **Tab Navigation**: Use the Tab key to navigate between cells in the grid.
+2. **Arrow Keys**: Once a cell is focused, use arrow keys to navigate to adjacent cells.
+3. **Enter/Space**: Press Enter or Space to toggle the state of the focused cell.
+4. **Shift+Enter/Space**: In play mode, press Shift+Enter or Shift+Space to mark a cell.
+
+### Screen Reader Support
+
+The application is designed to work well with screen readers:
+
+1. **ARIA Attributes**: All interactive elements have proper ARIA attributes for better screen reader support.
+2. **Descriptive Labels**: Cells have descriptive labels indicating their position and state.
+3. **Structural Roles**: The grid uses appropriate ARIA roles to convey its structure and purpose.
+
+## Mouse Interactions
+
+### Click and Drag
+
+The nonogram grid supports enhanced mouse interactions:
+
+1. **Click and Drag**: Click on a cell and drag across multiple cells to fill or mark them all at once.
+2. **Right-Click and Drag**: In play mode, right-click and drag to mark multiple cells as empty.
+3. **Consistent Painting**: When dragging, all cells will be toggled to the opposite state of the first cell you clicked.
+
 ## Conclusion
 
 The Nonogram SPA Editor provides a comprehensive set of tools for nonogram enthusiasts. Enjoy creating, editing, and playing nonogram puzzles with its intuitive interface and responsive design. 

@@ -168,4 +168,102 @@ The architecture is designed to be extensible:
 1. **Backend**: Unit tests for data manager and descriptor calculator
 2. **Frontend**: Component tests for UI components
 3. **Integration**: API endpoint tests
-4. **E2E**: Browser tests for the complete flow 
+4. **E2E**: Browser tests for the complete flow
+
+## Architecture Overview
+
+The Nonogram SPA Editor is built using a modern architecture with the following components:
+
+### Frontend
+
+The frontend is built with **SvelteKit**, a modern web framework for building web applications. The application is structured as follows:
+
+- **Main App Layout**: The application layout defined in `routes/+layout.svelte` includes global styles and the theme mechanism.
+- **Main App Page**: The primary application view is rendered in `routes/+page.svelte`.
+- **Components**: Modular UI components in the `lib/components` directory.
+- **Stores**: State management using Svelte stores in the `lib/stores` directory.
+- **API Layer**: API communication layer in the `lib/api` directory.
+
+### Frontend Components
+
+The primary components of the application are:
+
+1. **NonogramGrid**: Renders the nonogram grid for viewing, playing, editing, or creating. Features include:
+   - Responsive grid rendering
+   - Click and drag functionality for filling/marking multiple cells
+   - Keyboard navigation and accessibility with ARIA attributes
+   - Support for different modes (view, play, edit, create)
+
+2. **NonogramClues**: Renders row and column clues for the nonogram.
+
+3. **StatusBar**: Displays status messages and current nonogram information.
+
+4. **NonogramSelector**: Allows users to select a nonogram from available puzzles.
+
+5. **ThemeToggle**: Provides a toggle between light and dark theme modes.
+
+### State Management
+
+The application uses Svelte stores for state management:
+
+1. **nonogramStore.ts**: Manages the core nonogram state including:
+   - Current nonogram data
+   - Application mode (view, play, edit, create)
+   - Game state tracking
+   - Grid manipulation functions
+
+2. **themeStore.ts**: Manages the application theme:
+   - Tracks light/dark theme preference
+   - Persists theme selection in localStorage
+   - Updates DOM with theme-specific classes
+
+### Data Flow
+
+1. **Loading Nonograms**: Nonograms are loaded from the backend API via the API client.
+2. **State Manipulation**: User interactions update the appropriate store state.
+3. **Rendering**: Components reactively update based on store changes.
+
+### Styling
+
+The application uses CSS with CSS variables for theming:
+
+1. **Theme System**: Light and dark themes controlled by CSS variables
+2. **Responsive Layout**: Adapts to different screen sizes
+3. **Grid Styling**: Specialized styling for the nonogram grid
+
+### Accessibility Features
+
+The application implements several accessibility features:
+
+1. **ARIA Attributes**: Proper ARIA roles and attributes throughout the application
+2. **Keyboard Navigation**: Complete keyboard support for grid interaction
+3. **Semantic HTML**: Using proper HTML semantics (buttons instead of divs)
+4. **Focus Management**: Proper focus indicators and management
+5. **Color Contrast**: Ensuring sufficient contrast in both light and dark themes
+
+### Backend (Proposed)
+
+The backend would be responsible for:
+
+1. **Nonogram Storage**: Storing and retrieving nonogram puzzles
+2. **User Authentication**: User management and authentication
+3. **API Endpoints**: RESTful API for the frontend
+
+## Key Design Patterns
+
+The application employs several key design patterns:
+
+1. **Component-Based Architecture**: UI elements are modularized as reusable components.
+2. **Store Pattern**: Centralized state management with Svelte stores.
+3. **Publisher/Subscriber Pattern**: Components subscribe to store changes.
+4. **Factory Pattern**: Used in creating nonogram objects.
+5. **Command Pattern**: Used for handling user actions and grid modifications.
+
+## Future Extensibility
+
+The architecture is designed for easy extensibility in several dimensions:
+
+1. **New Features**: Additional features can be added by creating new components and stores.
+2. **Backend Integration**: The API layer can be extended to communicate with a real backend.
+3. **Mobile Support**: The responsive design allows for mobile adaptation.
+4. **Offline Support**: Service workers could be added for offline capabilities 
