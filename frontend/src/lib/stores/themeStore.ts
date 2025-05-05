@@ -3,9 +3,9 @@ import { browser } from '$app/environment';
 
 type Theme = 'light' | 'dark';
 
-// Initialize theme from localStorage or default to light
+// Initialize theme from localStorage or default to dark
 const storedTheme = browser ? localStorage.getItem('theme') as Theme : null;
-const initialTheme: Theme = storedTheme || 'light';
+const initialTheme: Theme = storedTheme || 'dark';
 
 // Create the theme store
 export const theme = writable<Theme>(initialTheme);

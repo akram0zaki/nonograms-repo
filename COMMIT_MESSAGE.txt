@@ -1,0 +1,12 @@
+fix: API client endpoint and response format handling
+
+- Fixed API endpoint paths (/api/nonograms/list instead of /api/nonograms)
+- Added proxy configuration in vite.config.js to forward API requests to backend
+- Enhanced API client to handle multiple response formats for robustness
+- Updated unit tests for API client
+- Added comprehensive tests for proxy configuration and response format handling
+- Added detailed CHANGELOG.md entries
+
+This commit addresses the 404 errors users were experiencing with the
+nonogram list loading by correctly configuring the API endpoints and
+adding proper proxy setup to the backend server. 

@@ -6,8 +6,9 @@
     import NonogramClues from '$lib/components/NonogramClues.svelte';
     import StatusBar from '$lib/components/StatusBar.svelte';
     import ThemeToggle from '$lib/components/ThemeToggle.svelte';
+    import SaveNonogramForm from '$lib/components/SaveNonogramForm.svelte';
     
-    import { getNonogramByName, createNonogram } from '$lib/api/client';
+    import { getNonogramByName, createNonogram, saveNonogram } from '$lib/api/client';
     import type { Nonogram } from '$lib/api/client';
     
     import {
@@ -27,6 +28,8 @@
         toggleEditCell,
     } from '$lib/stores/nonogramStore';
     
+    import { logger } from '$lib/utils/logger';
+    
     // Create local references
     let currentNonogramValue: Nonogram | null;
     let editorBoardStateValue: boolean[][];
@@ -35,6 +38,7 @@
     let isDirtyValue: boolean;
     let newGridRowsValue: number;
     let newGridColsValue: number;
+    let showSaveForm = false;
     
     // Subscribe to stores
     currentNonogram.subscribe(value => currentNonogramValue = value);
@@ -172,36 +176,50 @@
     
     // Handle save (for now, we're not implementing actual saving to backend)
     async function handleSave() {
+        // For normal "Process Nonogram" action
+        if (!showSaveForm) {
+            showSaveForm = true;
+            return;
+        }
+    }
+    
+    // Handle save form submission
+    async function handleSaveSubmit(event: CustomEvent<string>) {
         try {
-            statusMessage.set('Processing...');
+            const nonogramName = event.detail;
+            statusMessage.set('Saving nonogram...');
             
             if (appModeValue === 'create' || appModeValue === 'edit') {
-                const descriptors = calculateDescriptors(editorBoardStateValue);
-                const name = currentNonogramValue?.name || 'New Nonogram';
-                
-                // Create a nonogram object
-                const nonogram: Omit<Nonogram, 'descriptors'> = {
-                    name,
+                // Create a nonogram object with the given name
+                const nonogram = {
+                    name: nonogramName,
                     board: editorBoardStateValue
                 };
                 
-                // In a future version, this would save to the backend
-                // For now, just calculate descriptors and update local state
-                const updatedNonogram = await createNonogram(nonogram);
+                // Save to backend
+                const savedNonogram = await saveNonogram(nonogram);
                 
                 // Update the current nonogram
-                currentNonogram.set(updatedNonogram);
+                currentNonogram.set(savedNonogram);
                 
                 // Clear dirty flag
                 isDirty.set(false);
                 
-                statusMessage.set('Nonogram processed successfully! (Note: Not saved to backend in v1.0)');
+                // Reset save form
+                showSaveForm = false;
+                
+                statusMessage.set(`Nonogram '${nonogramName}' saved successfully!`);
                 setTimeout(() => statusMessage.set(''), 3000);
             }
         } catch (error) {
-            console.error('Error saving nonogram:', error);
-            statusMessage.set('Error processing nonogram. Please try again.');
+            logger.error('Error saving nonogram:', error);
+            statusMessage.set(`Error: ${error instanceof Error ? error.message : 'Unknown error'}`);
         }
+    }
+    
+    // Handle save form cancel
+    function handleSaveCancel() {
+        showSaveForm = false;
     }
 </script>
 
