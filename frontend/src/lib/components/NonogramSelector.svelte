@@ -159,8 +159,8 @@
 <style>
     .selector-container {
         padding: 10px;
-        background-color: #f8f8f8;
-        border: 1px solid #ddd;
+        background-color: var(--bg-primary);
+        border: 1px solid var(--border-color);
         border-radius: 4px;
     }
     
@@ -174,46 +174,52 @@
     label {
         font-weight: bold;
         min-width: 100px;
+        color: var(--text-primary);
     }
     
     select, input {
         flex-grow: 1;
         padding: 8px;
-        border: 1px solid #ccc;
+        border: 1px solid var(--border-color);
         border-radius: 4px;
+        background-color: var(--bg-secondary);
+        color: var(--text-primary);
     }
     
     button {
         padding: 8px 16px;
-        background-color: #4a90e2;
+        background-color: var(--accent-primary);
         color: white;
         border: none;
         border-radius: 4px;
         cursor: pointer;
         font-weight: bold;
+        transition: background-color 0.2s;
     }
     
     button:hover {
-        background-color: #3a80d2;
+        background-color: var(--accent-secondary);
     }
     
     button:disabled {
         background-color: #cccccc;
         cursor: not-allowed;
+        opacity: 0.7;
     }
     
     .search-results {
         margin-top: 10px;
         margin-bottom: 15px;
-        border: 1px solid #ddd;
+        border: 1px solid var(--border-color);
         border-radius: 4px;
         padding: 10px;
-        background-color: white;
+        background-color: var(--bg-secondary);
     }
     
     .search-results h4 {
         margin-top: 0;
         margin-bottom: 8px;
+        color: var(--text-primary);
     }
     
     .search-results ul {
@@ -226,14 +232,17 @@
         padding: 5px 10px;
         cursor: pointer;
         border-radius: 3px;
+        color: var(--text-primary);
+        transition: background-color 0.2s;
     }
     
     .search-results li:hover {
-        background-color: #f0f0f0;
+        background-color: var(--bg-primary);
     }
     
     .search-results li.selected {
-        background-color: #e2f0ff;
+        background-color: var(--accent-secondary);
+        color: white;
         font-weight: bold;
     }
 </style> 
