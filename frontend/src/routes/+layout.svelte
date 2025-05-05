@@ -28,18 +28,18 @@
     }
     
     :global(.dark-theme) {
-        /* Dark theme variables */
+        /* Dark theme variables with improved contrast */
         --bg-primary: #1a202c;
         --bg-secondary: #2d3748;
-        --text-primary: #f7fafc;
-        --text-secondary: #a0aec0;
+        --text-primary: #f0f4f8;
+        --text-secondary: #cbd5e0;
         --accent-primary: #63b3ed;
-        --accent-secondary: #4a90e2;
+        --accent-secondary: #90cdf4;
         --border-color: #4a5568;
-        --shadow-color: rgba(0, 0, 0, 0.3);
+        --shadow-color: rgba(0, 0, 0, 0.4);
         --cell-filled: #63b3ed;
         --cell-empty: #2d3748;
-        --cell-marked: #e53e3e;
+        --cell-marked: #fc8181;
     }
     
     :global(body) {

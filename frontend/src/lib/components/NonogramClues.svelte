@@ -60,8 +60,8 @@
     
     .top-left-corner {
         grid-area: corner;
-        background-color: #f7fafc;
-        border: 2px solid #4a5568;
+        background-color: var(--bg-primary);
+        border: 2px solid var(--border-color);
         min-width: 25px;
         min-height: 25px;
         border-radius: 4px 0 0 0;
@@ -72,7 +72,7 @@
     
     .top-left-corner::after {
         content: '⊞';
-        color: #a0aec0;
+        color: var(--text-secondary);
         font-size: 16px;
         opacity: 0.5;
     }
@@ -83,9 +83,9 @@
         flex-direction: column;
         margin: 0;
         padding: 0;
-        border-top: 2px solid #4a5568;
-        border-right: 2px solid #4a5568;
-        background-color: #f7fafc;
+        border-top: 2px solid var(--border-color);
+        border-right: 2px solid var(--border-color);
+        background-color: var(--bg-primary);
         border-radius: 0 4px 0 0;
     }
     
@@ -102,9 +102,9 @@
         flex-direction: column;
         margin: 0;
         padding: 0;
-        border-left: 2px solid #4a5568;
-        border-bottom: 2px solid #4a5568;
-        background-color: #f7fafc;
+        border-left: 2px solid var(--border-color);
+        border-bottom: 2px solid var(--border-color);
+        background-color: var(--bg-primary);
         border-radius: 0 0 0 4px;
     }
     
@@ -125,10 +125,10 @@
         justify-content: center;
         font-weight: 600;
         font-size: 14px;
-        color: #4a5568;
+        color: var(--text-primary);
         box-sizing: border-box;
         transition: all 0.2s;
-        text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+        text-shadow: 0 1px 0 var(--shadow-color);
     }
     
     .clue-cell:not(:empty) {
@@ -140,7 +140,7 @@
         position: absolute;
         width: 18px;
         height: 18px;
-        background-color: #e2e8f0;
+        background-color: var(--bg-secondary);
         border-radius: 50%;
         z-index: -1;
         transition: transform 0.2s;
@@ -148,6 +148,6 @@
     
     .clue-cell:not(:empty):hover::before {
         transform: scale(1.2);
-        background-color: #cbd5e0;
+        background-color: var(--accent-secondary);
     }
 </style> 

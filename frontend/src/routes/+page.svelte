@@ -351,13 +351,6 @@
 </div>
 
 <style>
-    :global(body) {
-        background-color: #f5f7fa;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        margin: 0;
-        padding: 0;
-    }
-    
     .app-container {
         max-width: 1000px;
         margin: 0 auto;
@@ -371,11 +364,11 @@
     }
     
     h1 {
-        color: #324b64;
+        color: var(--text-primary);
         font-size: 2.5rem;
         margin: 0;
         padding: 15px 0;
-        text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+        text-shadow: 1px 1px 2px var(--shadow-color);
         position: relative;
         display: inline-block;
     }
@@ -385,15 +378,15 @@
         position: absolute;
         width: 60%;
         height: 3px;
-        background: linear-gradient(90deg, #4a90e2, #63b3ed);
+        background: linear-gradient(90deg, var(--accent-primary), var(--accent-secondary));
         bottom: 0;
         left: 20%;
     }
     
     main {
-        background-color: white;
+        background-color: var(--bg-secondary);
         border-radius: 12px;
-        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        box-shadow: 0 4px 12px var(--shadow-color);
         padding: 25px;
         position: relative;
     }
@@ -401,9 +394,9 @@
     .controls-bar {
         margin-bottom: 20px;
         border-radius: 8px;
-        background-color: #f7f9fc;
+        background-color: var(--bg-primary);
         padding: 15px;
-        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        box-shadow: 0 2px 5px var(--shadow-color);
     }
     
     .nonogram-area {
@@ -422,12 +415,12 @@
         grid-template-rows: auto 1fr;
         width: auto;
         overflow: visible;
-        background-color: #fff;
-        border: 2px solid #e2e8f0;
+        background-color: var(--bg-secondary);
+        border: 2px solid var(--border-color);
         border-radius: 10px;
         padding: 15px;
         gap: 0;
-        box-shadow: 0 3px 8px rgba(0,0,0,0.07);
+        box-shadow: 0 3px 8px var(--shadow-color);
     }
     
     .mode-buttons {
@@ -436,53 +429,54 @@
         gap: 10px;
         margin: 15px 0;
         padding: 12px;
-        background: linear-gradient(145deg, #f0f5ff, #e6f0ff);
+        background: linear-gradient(145deg, var(--bg-primary), var(--bg-secondary));
         border-radius: 10px;
-        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        box-shadow: 0 2px 5px var(--shadow-color);
     }
     
     .mode-buttons span {
         font-weight: bold;
         margin-right: 8px;
-        color: #324b64;
+        color: var(--text-primary);
     }
     
     .mode-buttons button {
         padding: 8px 20px;
         border: none;
         border-radius: 8px;
-        background-color: #fff;
+        background-color: var(--bg-secondary);
         cursor: pointer;
         transition: all 0.2s;
         font-size: 0.95rem;
         font-weight: 500;
-        color: #4a5568;
-        box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+        color: var(--text-secondary);
+        box-shadow: 0 1px 3px var(--shadow-color);
     }
     
     .mode-buttons button:hover {
-        background-color: #f0f5ff;
+        background-color: var(--accent-secondary);
+        color: white;
         transform: translateY(-1px);
     }
     
     .mode-buttons button.active {
-        background: linear-gradient(135deg, #4a90e2, #63b3ed);
+        background: linear-gradient(135deg, var(--accent-primary), var(--accent-secondary));
         color: white;
         font-weight: 600;
         box-shadow: 0 2px 5px rgba(74, 144, 226, 0.3);
     }
     
     .create-form {
-        background: linear-gradient(145deg, #f8fafc, #edf2f7);
-        border: 1px solid #e2e8f0;
+        background: linear-gradient(145deg, var(--bg-primary), var(--bg-secondary));
+        border: 1px solid var(--border-color);
         border-radius: 12px;
         padding: 25px;
         margin-bottom: 25px;
-        box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+        box-shadow: 0 2px 8px var(--shadow-color);
     }
     
     .create-form h3 {
-        color: #324b64;
+        color: var(--text-primary);
         margin-top: 0;
         margin-bottom: 20px;
         font-size: 1.3rem;
@@ -497,55 +491,56 @@
     .form-row label {
         width: 100px;
         font-weight: 600;
-        color: #4a5568;
+        color: var(--text-primary);
     }
     
     .form-row input {
         width: 100px;
         padding: 10px 12px;
-        border: 1px solid #cbd5e0;
+        border: 1px solid var(--border-color);
         border-radius: 6px;
-        background-color: #fff;
-        box-shadow: 0 1px 2px rgba(0,0,0,0.05);
+        background-color: var(--bg-secondary);
+        color: var(--text-primary);
+        box-shadow: 0 1px 2px var(--shadow-color);
         transition: all 0.2s;
     }
     
     .form-row input:focus {
         outline: none;
-        border-color: #4a90e2;
+        border-color: var(--accent-primary);
         box-shadow: 0 0 0 3px rgba(74, 144, 226, 0.2);
     }
     
     .create-form button, .edit-actions button, .controls-bar button {
         padding: 10px 20px;
-        background: linear-gradient(to right, #4a90e2, #63b3ed);
+        background: linear-gradient(to right, var(--accent-primary), var(--accent-secondary));
         color: white;
         border: none;
         border-radius: 8px;
         cursor: pointer;
         font-weight: 600;
         transition: all 0.2s;
-        box-shadow: 0 2px 5px rgba(74, 144, 226, 0.3);
+        box-shadow: 0 2px 5px var(--shadow-color);
     }
     
     .create-form button:hover, .edit-actions button:hover, .controls-bar button:hover {
         transform: translateY(-2px);
-        box-shadow: 0 4px 8px rgba(74, 144, 226, 0.4);
+        box-shadow: 0 4px 8px var(--shadow-color);
     }
     
     .edit-actions {
         margin: 20px 0;
         padding: 15px;
-        background: linear-gradient(145deg, #edf7ff, #e6f5ff);
+        background: linear-gradient(145deg, var(--bg-primary), var(--bg-secondary));
         border-radius: 10px;
         display: flex;
         justify-content: space-between;
         align-items: center;
-        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        box-shadow: 0 2px 5px var(--shadow-color);
     }
     
     .note {
-        color: #5a6878;
+        color: var(--text-secondary);
         font-style: italic;
         font-size: 0.9em;
         margin: 0 15px;
@@ -555,7 +550,7 @@
         text-align: center;
         padding: 50px;
         font-size: 1.3em;
-        color: #4a5568;
+        color: var(--text-primary);
     }
     
     .loading::after {
@@ -572,7 +567,7 @@
     footer {
         margin-top: 30px;
         text-align: center;
-        color: #718096;
+        color: var(--text-secondary);
         font-size: 0.9em;
         padding: 20px 0;
     }
@@ -584,7 +579,7 @@
     
     footer p::before, footer p::after {
         content: "•";
-        color: #4a90e2;
+        color: var(--accent-primary);
         margin: 0 10px;
         opacity: 0.7;
     }

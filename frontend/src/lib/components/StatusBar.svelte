@@ -40,11 +40,11 @@
         justify-content: space-between;
         align-items: center;
         padding: 15px;
-        background: linear-gradient(145deg, #f0f5ff, #e6f0ff);
+        background: linear-gradient(145deg, var(--bg-primary), var(--bg-secondary));
         border: none;
         border-radius: 10px;
         margin-bottom: 15px;
-        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.07);
+        box-shadow: 0 2px 6px var(--shadow-color);
     }
     
     .status-message {
@@ -52,10 +52,10 @@
     }
     
     .success-message {
-        color: #2bb573;
+        color: #2bb573; /* Success color is kept distinct for accessibility */
         font-weight: bold;
         font-size: 1.2em;
-        text-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+        text-shadow: 0 1px 1px var(--shadow-color);
         animation: pulse 1.5s infinite;
         display: flex;
         align-items: center;
@@ -68,19 +68,19 @@
     }
     
     .info-message {
-        color: #4a90e2;
+        color: var(--accent-primary);
         font-weight: 500;
     }
     
     .current-nonogram {
         font-size: 1.1em;
-        color: #324b64;
+        color: var(--text-primary);
     }
     
     .nonogram-name {
         font-weight: 600;
-        color: #4a90e2;
-        border-bottom: 2px dotted #63b3ed;
+        color: var(--accent-primary);
+        border-bottom: 2px dotted var(--accent-secondary);
         padding-bottom: 2px;
     }
     

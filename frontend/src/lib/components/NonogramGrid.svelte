@@ -345,12 +345,26 @@
     
     .debug-text {
         font-size: 8px;
-        color: #999;
+        color: var(--text-secondary);
         position: absolute;
         top: 1px;
         left: 1px;
-        opacity: 0.3;
+        opacity: 0.5;
         pointer-events: none;
+    }
+    
+    /* Add a specific style for marked cells in dark theme */
+    :global(.dark-theme) button[data-cell-value="marked"] span {
+        color: var(--cell-marked);
+        font-weight: bold;
+        text-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
+    }
+    
+    /* Improved hover contrast in dark theme */
+    :global(.dark-theme) .cell:hover, 
+    :global(.dark-theme) button:hover {
+        background-color: var(--accent-secondary);
+        opacity: 0.9;
     }
     
     @media (prefers-reduced-motion: no-preference) {
