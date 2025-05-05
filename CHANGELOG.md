@@ -4,7 +4,27 @@ All notable changes to the Nonogram SPA Editor project will be documented in thi
 
 ## [Unreleased]
 
-## [1.1.0] - 2023-07-12
+### Fixed
+- Fixed API endpoint issues in the frontend client (now using `/api/nonograms/list` instead of `/api/nonograms`)
+- Enhanced API client to handle different response formats for better robustness:
+  - Support for both `{ names: [...] }` and direct array responses
+  - Support for both `{ matches: [...] }` and direct array search responses
+- Added proxy configuration in `vite.config.js` to forward API requests from frontend to backend server
+- Fixed API base URL handling to properly construct endpoints
+- Updated unit tests to match the new API client implementation
+
+### Added
+- Added comprehensive unit tests for API client
+- Added tests for proxy configuration to prevent regression
+- Added tests for environment configuration
+- Added response format handling tests to ensure client robustness
+
+### Changed
+- Improved error handling in API client
+- Updated NonogramSelector to handle the new API response format
+- Enhanced test coverage for all API client methods
+
+## [1.1.0] - 2025-05-05
 
 ### Added
 - Dark/light theme toggle
@@ -57,7 +77,7 @@ All notable changes to the Nonogram SPA Editor project will be documented in thi
 - Improved focus visibility in both light and dark themes
 - Fixed keyboard navigation from cell to cell
 
-## [1.0.0] - 2023-07-01
+## [1.0.0] - 2025-05-015
 
 ### Added
 - Initial release of Nonogram SPA Editor
@@ -65,4 +85,12 @@ All notable changes to the Nonogram SPA Editor project will be documented in thi
 - Puzzle loading and selection
 - Clue search functionality
 - Mode switching (View/Play/Edit/Create)
-- Status messages and notifications 
+- Status messages and notifications
+
+## [0.1.0] - 2023-05-01
+
+### Added
+- Initial release of the Nonogram SPA Editor
+- Basic puzzle creation functionality
+- Puzzle loading and saving
+- Theme toggle for light/dark mode 
