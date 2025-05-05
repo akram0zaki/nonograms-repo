@@ -1,0 +1,2870 @@
+{
+    "shrimp": {
+        "name": "Shrimp",
+        "descriptors": {
+            "columns": [
+                [4], [6], [1, 8], [1, 4, 2], [1, 5, 2], [1, 3, 1, 2], [1, 3, 1, 2], [1, 1, 1, 1], [1, 3], [3,1]
+            ],
+            "rows": [
+                [8], [1], [8], [6, 1], [9], [5], [3,4], [3], [6], [5]
+            ]
+        },
+        "board": [
+            [false, false,  true,   true,   true,   true,   true,   true,   true,   true],
+            [false, false,  false,  false,  false,  false,  false,  false,  false,  true],
+            [false, false,  true,   true,   true,   true,   true,   true,   true,   true],
+            [false, true,   true,   true,   true,   true,   true,   false,  true,   false],
+            [false, true,   true,   true,   true,   true,   true,   true,   true,   true],
+            [true,  true,   true,   true,   true,   false,  false,  false,  false,  false],
+            [true,  true,   true,   false,  true,   true,   true,   true,   false,  false],
+            [true,  true,   true,   false,  false,  false,  false,  false,  false,  false],
+            [false, true,   true,   true,   true,   true,   true,   false,  false,  false],
+            [false, false,  true,   true,   true,   true,   true,   false,  false,  false]
+        ]
+    },
+    "dwarven warrior": {
+        "name": "Dwarven Warrior",
+        "descriptors": {
+            "columns": [
+                [1,1], [6], [1,1,1], [1,7], [4,4], [4,4], [2,6], [9], [1,1,1,1], [5]
+            ],
+            "rows": [
+                [1,3,1], [5], [1,2,2], [2,5,1], [1,1,2,1], [1,5,1], [9], [1,5,1], [2,5], [1,2]
+            ]
+        },
+        "board": [
+            [false, false,  true,   false,  true,   true,   true,   false,  true,   false],
+            [false, false,  false,  true,   true,   true,   true,   true,   false,  false],
+            [false, false,  true,   false,  true,   true,   false,  true,   true,   false],
+            [true,  true,   false,  true,   true,   true,   true,   true,   false,  true],
+            [false, true,   false,  true,   false,  false,  true,   true,   false,  true],
+            [false, true,   false,  true,   true,   true,   true,   true,   false,  true],
+            [false, true,   true,   true,   true,   true,   true,   true,   true,   true],
+            [false, true,   false,  true,   true,   true,   true,   true,   false,  true],
+            [true,  true,   false,  true,   true,   true,   true,   true,   false,  false],
+            [false, false,  false,  true,   false,  false,  false,  true,   true,   false]
+        ]
+    },
+    "scales": {
+        "name": "Scales",
+        "descriptors": {
+            "columns": [
+                [1,3], [5], [1,2,1], [1,2], [9], [9], [1,2], [1,2,1], [5], [1,2,1]
+            ],
+            "rows": [
+                [2], [5], [4,1], [2,2,3], [1,2,3], [2,2], [3,2], [3,2], [4], [6,1]
+            ]
+        },
+        "board": [
+            [false, false,  false,  false,  false,  false,  false,  false,  true,   true],
+            [false, false,  false,  false,  true,   true,   true,   true,   true,   false],
+            [false, false,  true,   true,   true,   true,   false,  false,  true,   false],
+            [true,  true,   false,  false,  true,   true,   false,  true,   true,   true],
+            [false, true,   false,  false,  true,   true,   false,  true,   true,   true],
+            [true,  true,   false,  false,  true,   true,   false,  false,  false,  false],
+            [true,  true,   true,   false,  true,   true,   false,  false,  false,  false],
+            [true,  true,   true,   false,  true,   true,   false,  false,  false,  false],
+            [false, false,  false,  true,   true,   true,   true,   false,  false,  false],
+            [false, false,  true,   true,   true,   true,   true,   true,   false,  true]
+        ]
+    },
+    "love message": {
+        "name": "Love Message",
+        "descriptors": {
+            "columns": [
+                [5], [2,2], [1,2,1], [1,3,2], [1,3,1], [1,3,2], [1,2,1], [2,2], [5]
+            ],
+            "rows": [
+                [7], [2,2], [1,2,2,1], [1,5,1], [1,3,1], [2,1,2], [3,3], [1,1], [1]
+            ]
+        },
+        "board": [
+            [false, true,   true,   true,   true,   true,   true,   true,   false],
+            [true,  true,   false,  false,  false,  false,  false,  true,   true],
+            [true,  false,  true,   true,   false,  true,   true,   false,  true],
+            [true,  false,  true,   true,   true,   true,   true,   false,  true],
+            [true,  false,  false,  true,   true,   true,   false,  false,  true],
+            [true,  true,   false,  false,  true,   false,  false,  true,   true],
+            [false, true,   true,   true,   false,  true,   true,   true,   false],
+            [false, false,  false,  true,   false,  true,   false,  false,  false],
+            [false, false,  false,  false,  true,   false,  false,  false,  false]
+        ]
+    },
+    "speedster": {
+        "name": "Speedster",
+        "descriptors": {
+            "columns": [
+                [1], [1,3], [1,1], [2,4], [9], [2,1,1], [1,2,1], [1,2], [1,1,1], [1,1,1,1]
+            ],
+            "rows": [
+                [3], [3], [2,3], [1], [3,2], [4,1], [2,1,2], [4], [1,4,1], [2,1]
+            ]
+        },
+        "board": [
+            [false, false,  false,  false,  true,   true,   true,   false,  false,  false],
+            [false, false,  false,  true,   true,   true,   false,  false,  false,  false],
+            [false, false,  false,  true,   true,   false,  false,  true,   true,   true],
+            [false, false,  false,  false,  true,   false,  false,  false,  false,  false],
+            [false, false,  false,  true,   true,   true,   false,  false,  true,   true],
+            [false, true,   true,   true,   true,   false,  true,   false,  false,  false],
+            [false, false,  false,  true,   true,   false,  true,   false,  true,   true],
+            [false, true,   true,   true,   true,   false,  false,  false,  false,  false],
+            [false, true,   false,  false,  true,   true,   true,   true,   false,  true],
+            [true,  true,   false,  false,  false,  false,  false,  true,   false,  false]
+        ]
+    },
+    "spider": {
+        "name": "Spider",
+        "descriptors": {
+            "columns": [
+                [4], [1,1], [6], [2,3,1], [5,1], [2,3], [5,1], [6,1], [4,2], [4]
+            ],
+            "rows": [
+                [4], [6], [1,1,3], [7], [8], [1,2,1,3], [1,1,1,1], [1,2,1,1], [1,2], [1,2]
+            ]
+        },
+        "board": [
+            [false, false,  false,  true,   true,   true,   true,   false,  false,  false],
+            [false, false,  true,   true,   true,   true,   true,   true,   false,  false],
+            [false, false,  true,   false,  true,   false,  true,   true,   true,   false],
+            [false, false,  true,   true,   true,   true,   true,   true,   true,   false],
+            [false, true,   true,   true,   true,   true,   true,   true,   true,   false],
+            [true,  false,  true,   true,   false,  true,   false,  true,   true,   true],
+            [true,  false,  true,   false,  false,  false,  false,  true,   false,  true],
+            [true,  false,  false,  true,   true,   false,  true,   false,  false,  true],
+            [true,  false,  false,  false,  false,  false,  false,  false,  true,   true],
+            [false, true,   false,  false,  false,  false,  false,  true,   true,   false]
+        ]
+    },
+    "lemons": {
+        "name": "Lemons",
+        "descriptors": {
+            "columns": [
+                [1,3], [2,1,3], [1,6], [2,3], [1,2], [1,1,4], [8], [2,5], [2,1,3], [2]
+            ],
+            "rows": [
+                [3,1], [2,3,2], [1,2], [2,3,2], [1,3,1,1], [4,3], [4,4], [2,4], [4], [2]
+            ]
+        },
+        "board": [
+            [false, true,   true,   true,   false,  false,  false,  false,  true,   false],
+            [true,  true,   false,  true,   true,   true,   false,  true,   true,   false],
+            [false, false,  true,   false,  false,  false,  true,   true,   false,  false],
+            [false, true,   true,   false,  true,   true,   true,   false,  true,   true],
+            [true,  false,  true,   true,   true,   false,  true,   false,  false,  true],
+            [true,  true,   true,   true,   false,  true,   true,   true,   false,  false],
+            [true,  true,   true,   true,   false,  true,   true,   true,   true,   false],
+            [false, true,   true,   false,  false,  true,   true,   true,   true,   false],
+            [false, false,  false,  false,  false,  true,   true,   true,   true,   false],
+            [false, false,  false,  false,  false,  false,  true,   true,   false,  false]
+        ]
+    },
+    "penny-farthing": {
+        "name": "Penny-Farthing",
+        "descriptors": {
+            "columns": [
+                [4], [1,1], [2,1,2,1], [6,1], [3,1,1], [1,1,4], [2], [4,2], [1,3,1], [3]
+            ],
+            "rows": [
+                [1,2], [3], [6], [3,2], [1,2,1], [1,2,1,2], [1,2,1,1], [1,1,3], [1,1,1,1], [3,2]
+            ]
+        },
+        "board": [
+            [false, false,  true,   false,  true,   true,   false,  false,  false,  false],
+            [false, false,  true,   true,   true,   false,  false,  false,  false,  false],
+            [false, false,  false,  true,   true,   true,   true,   true,   true,   false],
+            [false, true,   true,   true,   false,  false,  true,   true,   false,  false],
+            [true,  false,  false,  true,   true,   false,  false,  true,   false,  false],
+            [true,  false,  true,   true,   false,  true,   false,  true,   true,   false],
+            [true,  false,  true,   true,   false,  true,   false,  false,  true,   false],
+            [true,  false,  false,  false,  false,  true,   false,  true,   true,   true],
+            [false, true,   false,  false,  false,  true,   false,  true,   false,  true],
+            [false, false,  true,   true,   true,   false,  false,  false,  true,   false]
+        ]
+    },
+    "medusa": {
+        "name": "Medusa",
+        "descriptors": {
+            "columns": [
+                [1,1], [1,2], [1,1,1], [4,1], [4,5], [9], [3,5], [1,1,3], [2,1,1], [1,1]
+            ],
+            "rows": [
+                [3], [1,4,1], [8], [1,4,1], [2,1,2], [1,3], [5], [4], [4,1], [1,3]
+            ]
+        },
+        "board": [
+            [false, false,  false,  true,   true,   true,   false,  false,  false,  false],
+            [true,  false,  false,  true,   true,   true,   true,   false,  true,   false],
+            [false, true,   true,   true,   true,   true,   true,   true,   true,   false],
+            [true,  false,  false,  true,   true,   true,   true,   false,  false,  true],
+            [false, true,   true,   false,  false,  true,   false,  true,   true,   false],
+            [false, true,   false,  false,  true,   true,   true,   false,  false,  false],
+            [false, false,  true,   true,   true,   true,   true,   false,  false,  false],
+            [false, false,  false,  false,  true,   true,   true,   true,   false,  false],
+            [false, false,  false,  false,  true,   true,   true,   true,   false,  true],
+            [false, false,  false,  false,  true,   false,  true,   true,   true,   false]
+        ]
+    },
+    "joker": {
+        "name": "Joker",
+        "descriptors": {
+            "columns": [
+                [10], [3,4], [2,2,1,1], [2,1,1], [2,1], [2,1], [3,1,1], [5,1,1], [4,4], [4,3]
+            ],
+            "rows": [
+                [1,7], [10], [2,4], [3,3], [1,2,2,1], [1], [2,1], [3,3], [2,4,2], [3,3]
+            ]
+        },
+        "board": [
+            [true,  false,  true,   true,   true,   true,   true,   true,   true,   false],
+            [true,  true,   true,   true,   true,   true,   true,   true,   true,   true],
+            [true,  true,   false,  false,  false,  false,  true,   true,   true,   true],
+            [true,  true,   true,   false,  false,  false,  false,  true,   true,   true],
+            [true,  false,  true,   true,   false,  false,  true,   true,   false,  true],
+            [true,  false,  false,  false,  false,  false,  false,  false,  false,  false],
+            [true,  true,   false,  false,  false,  false,  false,  false,  true,   false],
+            [true,  true,   true,   false,  false,  false,  false,  true,   true,   true],
+            [true,  true,   false,  true,   true,   true,   true,   false,  true,   true],
+            [true,  true,   true,   false,  false,  false,  false,  true,   true,   true]
+        ]
+    },
+    "red bicycle": {
+        "name": "Red Bicycle",
+        "descriptors": {
+            "columns": [
+                [3], [3,1], [1,2,1,1], [8], [1,5], [1,1], [2,1,4], [5,1], [2,3,1], [3]
+            ],
+            "rows": [
+                [1,1], [3,3], [1,1], [5], [3,1], [4,3], [2,4,2], [5,1,2], [1,1,1,1], [2,2]
+            ]
+        },
+        "board": [
+            [false, false,  false,  false,  false,  false,  true,   false,  true,  false],
+            [false, false,  true,   true,   true,   false,  true,   true,   true,   false],
+            [false, false,  false,  true,   false,  false,  false,  true,   false,  false],
+            [false, false,  false,  true,   true,   true,   true,   true,   false,  false],
+            [false, false,  true,   true,   true,   false,  false,  true,   false,  false],
+            [false, true,   true,   true,   true,   false,  true,   true,   true,   false],
+            [true,  true,   false,  true,   true,   true,   true,   false,  true,   true],
+            [true,  true,   true,   true,   true,   false,  true,   false,  true,   true],
+            [true,  false,  false,  true,   false,  false,  true,   false,  false,  true],
+            [false, true,   true,   false,  false,  false,  false,  true,   true,   false]
+        ]
+    },
+    "centaur": {
+        "name": "Centaur",
+        "descriptors": {
+            "columns": [
+                [1], [1,1], [2,7], [8], [2,7], [1,1,3], [1,1,3], [2,5], [1], [2]
+            ],
+            "rows": [
+                [3], [5], [1,1], [7], [1,3], [8], [6,1], [6,1], [1,1,1], [1,1,1]
+            ]
+        },
+        "board": [
+            [false, false,  true,   true,   true,   false,  false,  false,  false,  false],
+            [false, false,  true,   true,   true,   true,   true,   false,  false,  false],
+            [false, false,  false,  true,   false,  false,  false,  true,   false,  false],
+            [false, true,   true,   true,   true,   true,   true,   true,   false,  false],
+            [true,  false,  true,   true,   true,   false,  false,  false,  false,  false],
+            [false, true,   true,   true,   true,   true,   true,   true,   true,   false],
+            [false, false,  true,   true,   true,   true,   true,   true,   false,  true],
+            [false, false,  true,   true,   true,   true,   true,   true,   false,  true],
+            [false, false,  true,   false,  true,   false,  false,  true,   false,  false],
+            [false, false,  true,   false,  true,   false,  false,  true,   false,  false]
+        ]
+    },
+    "american flag": {
+        "name": "American Flag",
+        "descriptors": {
+            "columns": [
+                [7], [1,1,1,1], [5,1], [1,1,1,1], [5,1], [7], [7], [1,1,1,1], [1,1,3], [7]
+            ],
+            "rows": [
+                [1], [3,2], [1,2,1,1], [3,3,2], [1,6,1], [3,3,2], [1,7], [3,3,1], [1,3], [3]
+            ]
+        },
+        "board": [
+            [false, false,  false,  false,  false,  false,  false,  false,  false,  true],
+            [true,  true,   true,   false,  false,  false,  false,  false,  true,   true],
+            [true,  false,  true,   true,   false,  false,  false,  true,   false,  true],
+            [true,  true,   true,   false,  true,   true,   true,   false,  true,   true],
+            [true,  false,  true,   true,   true,   true,   true,   true,   false,  true],
+            [true,  true,   true,   false,  true,   true,   true,   false,  true,   true],
+            [true,  false,  false,  true,   true,   true,   true,   true,   true,   true],
+            [true,  true,   true,   false,  true,   true,   true,   false,  true,   false],
+            [false, false,  false,  true,   false,  true,   true,   true,   false,  false],
+            [false, false,  false,  false,  true,   true,   true,   false,  false,  false]
+        ]
+    },
+    "fruit stall": {
+        "name": "Fruit Stall",
+        "descriptors": {
+            "columns": [
+                [4], [10], [4,4], [1,2,5], [2,1,4], [1,2,4], [2,1,5], [1,2,3], [1,7], [2,1]
+            ],
+            "rows": [
+                [8], [3,1,1,1], [4,1,1,1], [10], [1,1], [6,1], [8], [8], [8], [1,1,1,2]
+            ]
+        },
+        "board": [
+            [true,  true,   true,   true,   true,   true,   true,   true,   false,  false],
+            [true,  true,   true,   false,  true,   false,  true,   false,  true,   false],
+            [true,  true,   true,   true,   false,  true,   false,  true,   false,  true],
+            [true,  true,   true,   true,   true,   true,   true,   true,   true,   true],
+            [false, true,   false,  false,  false,  false,  false,  false,  true,   false],
+            [false, true,   true,   true,   true,   true,   true,   false,  true,   false],
+            [false, true,   true,   true,   true,   true,   true,   true,   true,   false],
+            [false, true,   true,   true,   true,   true,   true,   true,   true,   false],
+            [false, true,   true,   true,   true,   true,   true,   true,   true,   false],
+            [false, true,   false,  true,   false,  false,  true,   false,  true,   true]
+        ]
+    },
+    "slimy anchor": {
+        "name": "Slimy Anchor",
+        "descriptors": {
+            "columns": [
+                [3], [2], [2,1], [2,1,1], [1,7], [1, 8], [2,1,1], [1,2], [2], [3]
+            ],
+            "rows": [
+                [2], [1,1], [1,2], [2], [6], [1,2], [1,2,1], [1,2,1], [2,2,3], [8]
+            ]
+        },
+        "board": [
+            [false, false,  false,  false,  true,   true,   false,  false,  false,  false],
+            [false, false,  false,  true,   false,  false,  true,   false,  false,  false],
+            [false, false,  false,  true,   false,  true,   true,   false,  false,  false],
+            [false, false,  false,  false,  true,   true,   false,  false,  false,  false],
+            [false, false,  true,   true,   true,   true,   true,   true,   false,  false],
+            [false, false,  true,   false,  true,   true,   false,  false,  false,  false],
+            [true,  false,  false,  false,  true,   true,   false,  false,  false,  true],
+            [true,  false,  false,  false,  true,   true,   false,  false,  false,  true],
+            [true,  true,   false,  false,  true,   true,   false,  true,   true,   true],
+            [false, true,   true,   true,   true,   true,   true,   true,   true,   false]
+        ]
+    },
+    "witch's potion": {
+        "name": "Witch's Potion",
+        "descriptors": {
+            "columns": [
+                [2,1], [1,2,1,2], [6,3], [9], [9], [2,2,2], [1,1,1,2], [2,1,3], [3], [2]
+            ],
+            "rows": [
+                [3,1], [1,6], [4], [4,1], [6], [6], [1,2], [8], [9], [4,3]
+            ]
+        },
+        "board": [
+            [true,  true,   true,   false,  false,  false,  false,  true,   false,  false],
+            [true,  false,  true,   true,   true,   true,   true,   true,   false,  false],
+            [false, false,  true,   true,   true,   true,   false,  false,  false,  false],
+            [false, true,   true,   true,   true,   false,  true,   false,  false,  false],
+            [true,  true,   true,   true,   true,   true,   false,  false,  false,  false],
+            [false, false,  true,   true,   true,   true,   true,   true,   false,  false],
+            [false, true,   false,  true,   true,   false,  false,  false,  false,  false],
+            [false, false,  true,   true,   true,   true,   true,   true,   true,   true],
+            [false, true,   true,   true,   true,   true,   true,   true,   true,   true],
+            [false, true,   true,   true,   true,   false,  true,   true,   true,   false]
+        ]
+    },
+    "tongue": {
+        "name": "Tongue",
+        "descriptors": {
+            "columns": [
+                [3], [6], [8], [2,5], [1,5], [1,6], [2,2,4], [5,3], [5,1], [1,2]
+            ],
+            "rows": [
+                [2,2], [7], [2,2], [9], [10], [6,1], [6,1], [6,1], [3,1], [3]
+            ]
+        },
+        "board": [
+            [false, false,  true,   true,   false,  false,  true,   true,   false,  false],
+            [false, true,   true,   true,   true,   true,   true,   true,   false,  false],
+            [false, true,   true,   false,  false,  false,  false,  true,   true,   false],
+            [true,  true,   true,   true,   true,   true,   true,   true,   true,   false],
+            [true,  true,   true,   true,   true,   true,   true,   true,   true,   true],
+            [true,  true,   true,   true,   true,   true,   false,  false,  true,   false],
+            [false, true,   true,   true,   true,   true,   true,   false,  true,   false],
+            [false, false,  true,   true,   true,   true,   true,   true,   false,  true],
+            [false, false,  false,  false,  false,  true,   true,   true,   false,  true],
+            [false, false,  false,  false,  false,  false,  true,   true,   true,   false]
+        ]
+    },
+    "robot": {
+        "name": "Robot",
+        "descriptors": {
+            "columns": [
+                [1], [2], [3,1], [3,1], [6], [1,7], [1,1], [1,4], [2], [2]
+            ],
+            "rows": [
+                [4], [3], [3], [4], [6,1], [1,2,2], [3,1], [1,1], [1,1], [1,1]
+            ]
+        },
+        "board": [
+            [false, false,  true,   true,   true,   true,   false,  false,  false,  false],
+            [false, false,  true,   true,   true,   false,  false,  false,  false,  false],
+            [false, false,  true,   true,   true,   false,  false,  false,  false,  false],
+            [false, false,  false,  false,  true,   true,   true,   true,   false,  false],
+            [true,  true,   true,   true,   true,   true,   false,  false,  true,   false],
+            [false, true,   false,  false,  true,   true,   false,  false,  true,   true],
+            [false, false,  false,  false,  false,  true,   true,   true,   false,  true],
+            [false, false,  false,  false,  false, true,    false,  true,   false,  false],
+            [false, false,  false,  false,  false, true,    false,  true,   false,  false],
+            [false, false,  false,  false,  false, true,    false,  true,   false,  false]
+        ]
+    },
+    "genie lamp": {
+        "name": "Genie Lamp",
+        "descriptors": {
+            "columns": [
+                [1,2,1], [6], [1,2,1], [3,1], [4,1], [2,2,1], [2,2], [3], [1]
+            ],
+            "rows": [
+                [5], [5], [2,1], [3,2,1], [1,2], [3,1], [6], [1], [3]
+            ]
+        },
+        "board": [
+            [false, false,  false,  true,   true,   true,   true,   true,   false],
+            [false, false,  false,  true,   true,   true,   true,   true,   false],
+            [false, false,  false,  true,   true,   false,  false,  true,   false],
+            [true,  true,   true,   false,  true,   true,   false,  false,  true],
+            [false, true,   false,  false,  false,  true,   true,   false,  false],
+            [true,  true,   true,   false,  false,  false,  true,   false,  false],
+            [true,  true,   true,   true,   true,   true,   false,  false,  false],
+            [false, true,   false,  false,  false,  false,  false,  false,  false],
+            [true,  true,   true,   false,  false,  false,  false,  false,  false]
+        ]
+    },
+    "hoverboarding": {
+        "name": "Hoverboarding",
+        "descriptors": {
+            "columns": [
+                [1,1], [1,1], [1,2], [2,5,1], [3,3,1], [2,4,1], [1,3], [1,1], [1,1], [1]
+            ],
+            "rows": [
+                [3], [3], [1,1,1], [3,4], [3], [3], [3], [1,1], [1,1,1,1], [7]
+            ]
+        },
+        "board": [
+            [false, false,  false,  true,   true,   true,   false,  false,  false,  false],
+            [false, false,  false,  true,   true,   true,   false,  false,  false,  false],
+            [true,  false,  false,  false,  true,   false,  false,  false,  false,  true],
+            [false, true,   true,   true,   false,  true,   true,   true,   true,   false],
+            [false, false,  false,  true,   true,   true,   false,  false,  false,  false],
+            [false, false,  false,  true,   true,   true,   false,  false,  false,  false],
+            [false, false,  false,  true,   true,   true,   false,  false,  false,  false],
+            [false, false,  false,  true,   false,  false,  true,   false,  false,  false],
+            [true,  false,  true,   false,  false,  false,  true,   false,  true,   false],
+            [false, true,   true,   true,   true,   true,   true,   true,   false,  false]
+        ]
+    },
+    "pipe smoker": {
+        "name": "Pipe Smoker",
+        "descriptors": {
+            "columns": [
+                [1], [8], [4,5], [4,5], [6,3], [9], [2,2], [2,1], [2,2,3], [1,2,2]
+            ],
+            "rows": [
+                [3,3], [5,2], [5], [5,2], [1,2,2], [7], [3,2,2], [5,2], [8], [5]
+            ]
+        },
+        "board": [
+            [false, false,  true,   true,   true,   false,  false,  true,   true,   true],
+            [false, true,   true,   true,   true,   true,   false,  true,   true,   false],
+            [false, true,   true,   true,   true,   true,   false,  false,  false,  false],
+            [false, true,   true,   true,   true,   true,   false,  false,  true,   true],
+            [false, true,   false,  false,  true,   true,   false,  false,  true,   true],
+            [true,  true,   true,   true,   true,   true,   true,   false,  false,  false],
+            [false, true,   true,   true,   false,  true,   true,   false,  true,   true],
+            [false, true,   true,   true,   true,   true,   false,  false,  true,   true],
+            [false, true,   true,   true,   true,   true,   true,   true,   true,   false],
+            [false, false,  true,   true,   true,   true,   true,   false,  false,  false]
+        ]
+    },
+    "armored knight": {
+        "name": "Armored Knight",
+        "descriptors": {
+            "columns": [
+                [5,1], [5,1], [9], [6,1], [6,3], [9], [6,3], [2,1], [3,5], [9]
+            ],
+            "rows": [
+                [5], [8], [7,2], [7,1], [7,1], [7,2], [4,1,2], [1,6], [7,2], [1,1,1,2]
+            ]
+        },
+        "board": [
+            [false, false,  false,  false,  true,   true,   true,   true,   true,   false],
+            [false, false,  true,   true,   true,   true,   true,   true,   true,   true],
+            [true,  true,   true,   true,   true,   true,   true,   false,  true,   true],
+            [true,  true,   true,   true,   true,   true,   true,   false,  false,  true],
+            [true,  true,   true,   true,   true,   true,   true,   false,  false,  true],
+            [true,  true,   true,   true,   true,   true,   true,   false,  true,   true],
+            [true,  true,   true,   true,   false,  true,   false,  false,  true,   true],
+            [false, false,  true,   false,  true,   true,   true,   true,   true,   true],
+            [true,  true,   true,   true,   true,   true,   true,   false,  true,   true],
+            [false, false,  true,   false,  true,   false,  true,   false,  true,   true]
+        ]
+    },
+    "cable car": {
+        "name": "Cable Car",
+        "descriptors": {
+            "columns": [
+                [2,2], [2,4], [1,1,3], [1,1,2,3], [10], [3,2,3], [2,6], [2,5], [2,1], [2,1]
+            ],
+            "rows": [
+                [7], [6], [2,3], [3,1], [5], [10], [2,1,2], [7], [7], [5]
+            ]
+        },
+        "board": [
+            [false, false,  false,  true,   true,   true,   true,   true,   true,   true],
+            [false, false,  false,  false,  true,   true,   true,   true,   true,   true],
+            [true,  true,   false,  true,   true,   true,   false,  false,  false,  false],
+            [true,  true,   true,   false,  true,   false,  false,  false,  false,  false],
+            [false, false,  false,  true,   true,   true,   true,   true,   false,  false],
+            [true,  true,   true,   true,   true,   true,   true,   true,   true,   true],
+            [true,  true,   false,  false,  true,   false,  true,   true,   false,  false],
+            [false, true,   true,   true,   true,   true,   true,   true,   false,  false],
+            [false, true,   true,   true,   true,   true,   true,   true,   false,  false],
+            [false, false,  true,   true,   true,   true,   true,   false,  false,  false]
+        ]
+    },
+    "giant specs": {
+        "name": "Giant Specs",
+        "descriptors": {
+            "columns": [
+                [2], [2,2], [1,3,2], [3,1,4], [10], [3,2,1], [3,1,2,1], [10], [9], [6]
+            ],
+            "rows": [
+                [8], [2,7], [1,7], [1,1,3], [3,4], [1,1,3], [7], [6], [4,2], [7]
+            ]
+        },
+        "board": [
+            [false, true,   true,   true,   true,   true,   true,   true,   true,   false],
+            [true,  true,   false,  true,   true,   true,   true,   true,   true,   true],
+            [true,  false,  false,  true,   true,   true,   true,   true,   true,   true],
+            [false, false,  true,   false,  true,   false,  false,  true,   true,   true],
+            [false, false,  true,   true,   true,   false,  true,   true,   true,   true],
+            [false, false,  true,   false,  true,   false,  false,  true,   true,   true],
+            [false, false,  false,  true,   true,   true,   true,   true,   true,   true],
+            [false, false,  false,  true,   true,   true,   true,   true,   true,   false],
+            [false, true,   true,   true,   true,   false,  false,  true,   true,   false],
+            [false, true,   true,   true,   true,   true,   true,   true,   false,  false]
+        ]
+    },
+    "cartoon mouse": {
+        "name": "Cartoon Mouse",
+        "descriptors": {
+            "columns": [
+                [3], [4,2], [4,1,2], [7,1], [9], [7,1], [5,4], [3,1,1,1], [2,1,2], [2]
+            ],
+            "rows": [
+                [3,3], [9], [8], [6,1], [5], [4], [1,4], [1,5], [1,1,1,2], [8]
+            ]
+        },
+        "board": [
+            [true,  true,   true,   false,  false,  false,  true,   true,   true,   false],
+            [true,  true,   true,   true,   true,   true,   true,   true,   true,   false],
+            [true,  true,   true,   true,   true,   true,   true,   true,   false,   false],
+            [false, true,   true,   true,   true,   true,   true,   false,  true,   false],
+            [false, false,  false,  true,   true,   true,   true,   true,   false,  false],
+            [false, false,  true,   true,   true,   true,   false,  false,  false,  false],
+            [false, true,   false,  true,   true,   true,   true,   false,  false,  false],
+            [false, true,   false,  true,   true,   true,   true,   true,   false,  false],
+            [false, false,  true,   false,  true,   false,  true,   false,  true,   true],
+            [false, false,  true,   true,   true,   true,   true,   true,   true,   true]
+        ]
+    },
+    "smelly sock": {
+        "name": "Smelly Sock",
+        "descriptors": {
+            "columns": [
+                [2], [1,2,1,2], [2,3], [3,2], [1,2,1,2], [2,2], [1,3], [10], [10], [1]
+            ],
+            "rows": [
+                [1,1,2], [1,1,2], [2,2,2], [2,2,2], [1,1,4], [1,1,2], [1,2], [2,3], [8], [7]
+            ]
+        },
+        "board": [
+            [false, true,   false,  false,  true,   false,  false,  true,   true,   false],
+            [false, false,  true,   false,  false,  true,   false,  true,   true,   false],
+            [false, true,   true,   false,  true,   true,   false,  true,   true,   false],
+            [true,  true,   false,  true,   true,   false,  false,  true,   true,   false],
+            [true,  false,  false,  true,   false,  false,  true,   true,   true,   true],
+            [false, true,   false,  true,   false,  false,  false,  true,   true,   false],
+            [false, false,  false,  false,  true,   false,  false,  true,   true,   false],
+            [false, true,   true,   false,  false,  false,  true,   true,   true,   false],
+            [false, true,   true,   true,   true,   true,   true,   true,   true,   false],
+            [false, false,  true,   true,   true,   true,   true,   true,   true,   false]
+        ]
+    },
+    "rocking horse": {
+        "name": "Rocking Horse",
+        "descriptors": {
+            "columns": [
+                [2,3], [2,2], [2,3], [8,1], [4,1], [5,1], [4,1], [7], [3,2], [1,2]
+            ],
+            "rows": [
+                [1], [4], [4,1,1], [6], [6], [6], [1,5], [1,2,1,1], [3,3], [8]
+            ]
+        },
+        "board": [
+            [false, false,  false,  true,   false,  false,  false,  false,  false,  false],
+            [true,  true,   true,   true,   false,  false,  false,  false,  false,  false],
+            [true,  true,   true,   true,   false,  true,   false,  false,  false,  true],
+            [false, false,  false,  true,   true,   true,   true,   true,   true,   false],
+            [false, false,  false,  true,   true,   true,   true,   true,   true,   false],
+            [false, false,  false,  true,   true,   true,   true,   true,   true,   false],
+            [true,  false,  false,  true,   true,   true,   true,   true,   false,  false],
+            [true,  false,  true,   true,   false,  false,  false,  true,   false,  true],
+            [true,  true,   true,   false,  false,  false,  false,  true,   true,   true],
+            [false, true,   true,   true,   true,   true,   true,   true,   true,   false]
+        ]
+    },
+    "mr. clippy": {
+        "name": "Mr. Clippy",
+        "descriptors": {
+            "columns": [
+                [1,2], [3,5], [1,1], [1,4,1], [2,1,1], [6,1], [1,1,2], [3], [1]
+            ],
+            "rows": [
+                [4], [2,3], [1,1], [1,1,1], [2,1,2,1], [1,1,1,1], [1,3,1], [1,2], [6]
+            ]
+        },
+        "board": [
+            [false, true,   true,   true,   true,   false,  false,  false,  false],
+            [true,  true,   false,  false,  true,   true,   true,   false,  false],
+            [false, true,   false,  false,  false,  true,   false,  false,  false],
+            [true,  false,  false,  true,   false,  true,   false,  false,  false],
+            [true,  true,   false,  true,   false,  true,   true,   false,  true],
+            [false, true,   false,  true,   false,  true,   false,  true,   false],
+            [false, true,   false,  true,   true,   true,   false,  true,   false],
+            [false, true,   false,  false,  false,  false,  true,   true,   false],
+            [false, true,   true,   true,   true,   true,   true,   false,  false]
+        ]
+    },
+    "reptilian": {
+        "name": "Reptilian",
+        "descriptors": {
+            "columns": [
+                [1,3], [1,2,2], [4,5], [2,7], [9], [1,6], [1], [1], [2], [4]
+            ],
+            "rows": [
+                [2], [4], [1,1,2], [4], [1,3], [7], [5,2], [6,1], [1,4,1], [1,4,1]
+            ]
+        },
+        "board": [
+            [false, false,  true,   true,   false,  false,  false,  false,  false,  false],
+            [false, true,   true,   true,   true,   false,  false,  false,  false,  false],
+            [true,  false,  true,   false,  true,   true,   false,  false,  false,  false],
+            [false, true,   true,   true,   true,   false,  false,  false,  false,  false],
+            [false, true,   false,  true,   true,   true,   false,  false,  false,  false],
+            [false, false,  true,   true,   true,   true,   true,   true,   true,   false],
+            [false, true,   true,   true,   true,   true,   false,  false,  true,   true],
+            [true,  true,   true,   true,   true,   true,   false,  false,  false,  true],
+            [true,  false,  true,   true,   true,   true,   false,  false,  false,  true],
+            [true,  false,  true,   true,   true,   true,   false,  false,  false,  true]
+        ]
+    },
+    "violinist": {
+        "name": "Violinist",
+        "descriptors": {
+            "columns": [
+                [2], [1,1,1,3], [2,7], [3,1,2], [2,7], [8], [4,1], [4], [3], [1]
+            ],
+            "rows": [
+                [3], [4], [1,2], [2,5], [1,1,5], [9], [1,2,1,1], [6], [5], [2,2]
+            ]
+        },
+        "board": [
+            [false, false,  true,   true,   true,   false,  false,  false,  false,  false],
+            [false, true,   true,   true,   true,   false,  false,  false,  false,  false],
+            [false, false,  false,  true,   false,  true,   true,   false,  false,  false],
+            [false, true,   true,   false,  true,   true,   true,   true,   true,   false],
+            [true,  false,  true,   false,  true,   true,   true,   true,   true,   false],
+            [true,  true,   true,   true,   true,   true,   true,   true,   true,   false],
+            [false, false,  true,   false,  true,   true,   false,  true,   false,  true],
+            [false, true,   true,   true,   true,   true,   true,   false,  false,  false],
+            [false, true,   true,   true,   true,   true,   false,  false,  false,  false],
+            [false, true,   true,   false,  true,   true,   false,  false,  false,  false]        
+        ]
+    }, 
+    "3-headed beast": {
+        "name": "3-Headed Beast",
+        "descriptors": {
+            "columns": [
+                [2,1], [2,1,1], [1,1], [6], [2,2], [8], [4], [7], [2,2]
+            ],
+            "rows": [
+                [2], [2,2], [3,1,2], [2,1,1,1], [1,1,1], [1,1,3], [1,5], [8], [1,1,1]
+            ]
+        },
+        "board": [
+            [false, false,  false,  false,  true,   true,   false,  false,  false],
+            [false, false,  false,  false,  true,   true,   false,  true,   true],
+            [true,  true,   true,   false,  false,  true,   false,  true,   true],
+            [true,  true,   false,  true,   false,  true,   false,  true,   true],
+            [false, false,  false,  true,   false,  true,   false,  true,   false],
+            [false, true,   false,  true,   false,  true,   true,   true,   false],
+            [true,  false,  false,  true,   true,   true,   true,   true,   false],
+            [false, true,   true,   true,   true,   true,   true,   true,   true],
+            [false, false,  false,  true,   false,  false,  true,   false,  true]
+        ]
+    },
+    "fisherman": {
+        "name": "Fisherman",
+        "descriptors": {
+            "columns": [
+                [1,1], [7,1], [1,8], [3,1], [7], [2,1], [1,1], [1,1], [1,1], [10]
+            ],
+            "rows": [
+                [2,2], [1,3,1], [2,1,1], [2,1,1], [4,1], [4,1], [5,1], [1,1,1], [1,1,1], [10]
+            ]
+        },
+        "board": [
+            [false, true,   true,   false,  false,  false,  false,  false,  true,   true],
+            [false, true,   false,  false,  false,  true,   true,   true,   false,  true],
+            [false, true,   true,   false,  false,  true,   false,  false,  false,  true],
+            [false, true,   true,   false,  true,   false,  false,  false,  false,  true],
+            [false, true,   true,   true,   true,   false,  false,  false,  false,  true],
+            [false, true,   true,   true,   true,   false,  false,  false,  false,  true],
+            [true,  true,   true,   true,   true,   false,  false,  false,  false,  true],
+            [false, false,  true,   false,  true,   false,  false,  false,  false,  true],
+            [false, false,  true,   false,  true,   false,  false,  false,  false,  true],
+            [true,  true,   true,   true,   true,   true,   true,   true,   true,   true]
+        ]
+    },
+    "theatre masks": {
+        "name": "Theatre Masks",
+        "descriptors": {
+            "columns": [
+                [9], [1,1,2,1], [1,2,1], [5,1], [5,1], [1,1,2], [1,4], [6,2], [1,1,1], [3,1]
+            ],
+            "rows": [
+                [8], [1,2,1], [1,2,1], [9], [1,3,2,1], [1,2,1], [2,2,1], [6,1], [1,1], [1,3]
+            ]
+        },
+        "board": [
+            [true,  true,   true,   true,   true,   true,   true,   true,   false,  false],
+            [true,  false,  false,  true,   true,   false,  false,  true,   false,  false],
+            [true,  false,  false,  true,   true,   false,  false,  true,   false,  false],
+            [true,  true,   true,   true,   true,   true,   true,   true,   true,   false],
+            [true,  false,  true,   true,   true,   false,  true,   true,   false,  true],
+            [true,  false,  false,  false,  false,  false,  true,   true,   false,  true],
+            [true,  true,   false,  false,  false,  true,   true,   false,  false,  true],
+            [true,  true,   true,   true,   true,   true,   false,  false,  true,   false],
+            [true,  false,  false,  false,  false,  false,  false,  true,   false,  false],
+            [false, true,   false,  false,  false,  false,  false,  true,   true,   true]
+        ]
+    },
+    "baseball": {
+        "name": "Baseball",
+        "descriptors": {
+            "columns": [
+                [6], [2,3], [2,3], [1,1,3], [1,1,3], [1,1,3], [3,3], [3,4], [8], [6]
+            ],
+            "rows": [
+                [6], [2,3], [2,7], [1,2], [1,2], [1,2], [2,3], [10], [8], [6]
+            ]
+        },
+        "board": [
+            [false, false,  true,   true,   true,   true,   true,   true,   false,  false],
+            [false, true,   true,   false,  false,  false,  true,   true,   true,   false],
+            [true,  true,   false,  true,   true,   true,   true,   true,   true,   true],
+            [true,  false,  false,  false,  false,  false,  false,  false,  true,   true],
+            [true,  false,  false,  false,  false,  false,  false,  false,  true,   true],
+            [true,  false,  false,  false,  false,  false,  false,  false,  true,   true],
+            [true,  true,   false,  false,  false,  false,  false,  true,   true,   true],
+            [true,  true,   true,   true,   true,   true,   true,   true,   true,   true],
+            [false, true,   true,   true,   true,   true,   true,   true,   true,   false],
+            [false, false,  true,   true,   true,   true,   true,   true,   false,  false]
+        ]
+    },
+    "caterpillar": {
+        "name": "Caterpillar",
+        "descriptors": {
+            "columns": [
+                [1,1,1], [8], [1,6], [3,3], [2,3], [3], [4], [2], [4]
+            ],
+            "rows": [
+                [3], [1,2], [3], [3], [2,1], [3,3,1], [8], [5,3], [1,1,1,1]
+            ]
+        },
+        "board": [
+            [false, false,  true,   true,   true,   false,  false,  false,  false],
+            [false, true,   false,  true,   true,   false,  false,  false,  false],
+            [false, true,   true,   true,   false,  false,  false,  false,  false],
+            [true,  true,   true,   false,  false,  false,  false,  false,  false],
+            [false, true,   true,   false,  false,  true,   false,  false,  false],
+            [true,  true,   true,   false,  true,   true,   true,   false,  true],
+            [false, true,   true,   true,   true,   true,   true,   true,   true],
+            [true,  true,   true,   true,   true,   false,  true,   true,   true],
+            [false, true,   false,  true,   false,  false,  true,   false,  false]
+        ]
+    },
+    "cow head": {
+        "name": "Cow Head",
+        "descriptors": {
+            "columns": [
+                [3], [2,2], [7], [2,5], [8], [8], [2,5], [7], [1,2,2], [3]
+            ],
+            "rows": [
+                [1,2], [1,1], [2,4,2], [8], [1,2,1], [6], [6], [8], [8], [6]
+            ]
+        },
+        "board": [
+            [true,  false,  false,  false,  false,  false,  false,  false,  true,   true],
+            [true,  false,  false,  false,  false,  false,  false,  false,  false,  true],
+            [true,  true,   false,  true,   true,   true,   true,   false,  true,   true],
+            [false, true,   true,   true,   true,   true,   true,   true,   true,   false],
+            [false, false,  true,   false,  true,   true,   false,  true,   false,  false],
+            [false, false,  true,   true,   true,   true,   true,   true,   false,  false],
+            [false, false,  true,   true,   true,   true,   true,   true,   false,  false],
+            [false, true,   true,   true,   true,   true,   true,   true,   true,   false],
+            [false, true,   true,   true,   true,   true,   true,   true,   true,   false],
+            [false, false,  true,   true,   true,   true,   true,   true,   false,  false]
+        ]
+    },
+    "hot coffee": {
+        "name": "Hot Coffee",
+        "descriptors": {
+            "columns": [
+                [5], [3,2], [2,1,4], [2,6], [2,6], [3,6], [2,1,1,1], [2,2,1], [2], [2]
+            ],
+            "rows": [
+                [3], [5,1], [2,5], [1,2], [6], [1,5], [1,4,1], [1,5], [6], [7]
+            ]
+        },
+        "board": [
+            [false, false,  false,  true,   true,   true,   false,  false,  false,  false],
+            [false, false,  true,   true,   true,   true,   true,   false,  false,  true],
+            [false, true,   true,   false,  false,  true,   true,   true,   true,   true],
+            [false, true,   false,  false,  false,  false,  false,  true,   true,   false],
+            [true,  true,   true,   true,   true,   true,   false,  false,  false,  false],
+            [true,  false,  false,  true,   true,   true,   true,   true,   false,  false],
+            [true,  false,  true,   true,   true,   true,   false,  true,   false,  false],
+            [true,  false,  true,   true,   true,   true,   true,   false,  false,  false],
+            [true,  true,   true,   true,   true,   true,   false,  false,  false,  false],
+            [false, true,   true,   true,   true,   true,   true,   true,   false,  false]
+        ]
+    },
+    "lincoln": {
+        "name": "Lincoln",
+        "descriptors": {
+            "columns": [
+                [3], [1], [2], [1,3], [9], [7], [9], [10], [4,2], [1]
+            ],
+            "rows": [
+                [1,2], [1,2], [1,2], [6], [5], [1,5], [1,5], [1,5], [8], [2,1,3]
+            ]
+        },
+        "board": [
+            [false, false,  false,  false,  true,   false,  true,   true,   false,  false],
+            [false, false,  false,  false,  true,   false,  true,   true,   false,  false],
+            [false, false,  false,  false,  true,   false,  true,   true,   false,  false],
+            [false, false,  false,  true,   true,   true,   true,   true,   true,   false],
+            [false, false,  false,  false,  true,   true,   true,   true,   true,   false],
+            [true,  false,  false,  false,  true,   true,   true,   true,   true,   false],
+            [true,  false,  false,  false,  true,   true,   true,   true,   true,   false],
+            [true,  false,  false,  true,   true,   true,   true,   true,   false,  false],
+            [false, true,   true,   true,   true,   true,   true,   true,   true,   false],
+            [false, false,  true,   true,   false,  true,   false,  true,   true,   true]
+        ]
+    },
+    "robin hood": {
+        "name": "Robin Hood",
+        "descriptors": {
+            "columns": [
+                [4,2], [1,3,1], [1], [1,1], [4,1], [1,8], [2,5], [1,1,1,2], [1,1], [1]
+            ],
+            "rows": [
+                [1,4], [1,2,1], [1,2,2], [1,3,1], [2,4], [6], [1,2], [1,2], [1,1,1], [1,1,1]
+            ]
+        },
+        "board": [
+            [false, true,   false,  false,  true,   true,   true,   true,   false,  false],
+            [true,  false,  false,  true,   true,   false,  true,   false,  false,  false],
+            [true,  false,  false,  false,  true,   true,   false,  true,   true,   false],
+            [true,  false,  false,  false,  true,   true,   true,   false,  false,  true],
+            [true,  true,   false,  false,  false,  true,   true,   true,   true,   false],
+            [false, true,   true,   true,   true,   true,   true,   false,  false,  false],
+            [false, true,   false,  false,  false,  true,   true,   false,  false,  false],
+            [true,  false,  false,  false,  false,  true,   true,   false,  false,  false],
+            [true,  false,  false,  false,  false,  true,   false,  true,   false,  false],
+            [false, true,   false,  false,  false,  true,   false,  true,   false,  false]
+        ]
+    },
+    "martial artist": {
+        "name": "Martial Artist",
+        "descriptors": {
+            "columns": [
+                [1], [1], [1], [1,4], [1,5,1], [8], [6], [1,1,3], [2,4], [3]
+            ],
+            "rows": [
+                [2], [1], [1,4], [6,1], [5], [3], [6], [1,5], [2,3], [1,2]
+            ]
+        },
+        "board": [
+            [false, false,  false,  false,  true,   true,   false,  false,  false,  false],
+            [false, false,  false,  false,  false,  true,   false,  false,  false,  false],
+            [true,  false,  false,  false,  true,   true,   true,   true,   false,  false],
+            [false, true,   true,   true,   true,   true,   true,   false,  true,   false],
+            [false, false,  false,  false,  true,   true,   true,   true,   true,   false],
+            [false, false,  false,  false,  true,   true,   true,   false,  false,  false],
+            [false, false,  false,  true,   true,   true,   true,   true,   true,   false],
+            [false, false,  false,  true,   false,  true,   true,   true,   true,   true],
+            [false, false,  false,  true,   true,   false,  false,  true,   true,   true],
+            [false, false,  false,  true,   false,  false,  false,  false,  true,   true]
+        ]
+    },
+    "robot sheep": {
+        "name": "Robot Sheep",
+        "descriptors": {
+            "columns": [
+                [3], [1,3], [1,7], [7], [7], [6], [7], [2,6], [1,2,1], [1,2]
+            ],
+            "rows": [
+                [3,3], [1,2,1], [5,1,1], [7,1], [7], [6], [6], [1,6], [1,3,1], [1]
+            ]
+        },
+        "board": [
+            [false, true,   true,   true,   false,  false,  false,  true,   true,   true],
+            [true,  false,  false,  true,   true,   false,  false,  true,   false,  false],
+            [true,  true,   true,   true,   true,   false,  true,   false,  true,   false],
+            [true,  true,   true,   true,   true,   true,   true,   false,  true,   false],
+            [false, true,   true,   true,   true,   true,   true,   true,   false,  false],
+            [false, false,  true,   true,   true,   true,   true,   true,   false,  false],
+            [false, false,  true,   true,   true,   true,   true,   true,   false,  false],
+            [false, false,  true,   false,  true,   true,   true,   true,   true,   true],
+            [false, false,  true,   false,  false,  true,   true,   true,   false,  true],
+            [false, false,  false,  false,  false,  false,  false,  true,   false,  false]
+        ]
+    },
+    "gnome": {
+        "name": "Gnome",
+        "descriptors": {
+            "columns": [
+                [1], [3], [3], [2,4,1], [6,3], [3,3], [3,3], [3,5], [9], [2,1]
+            ],
+            "rows": [
+                [6], [8], [2,5], [2,1,1], [2,1], [2,3], [1,4], [6], [5], [3,3]
+            ]
+        },
+        "board": [
+            [false, false,  true,   true,   true,   true,   true,   true,   false,  false],
+            [false, true,   true,   true,   true,   true,   true,   true,   true,   false],
+            [false, true,   true,   false,  true,   true,   true,   true,   true,   false],
+            [true,  true,   false,  false,  true,   false,  false,  false,  true,   false],
+            [false, false,  false,  true,   true,   false,  false,  false,  true,   false],
+            [false, false,  false,  true,   true,   false,  false,  true,   true,   true],
+            [false, false,  false,  true,   false,  false,  true,   true,   true,   true],
+            [false, false,  false,  true,   true,   true,   true,   true,   true,   false],
+            [false, false,  false,  false,  true,   true,   true,   true,   true,   false],
+            [false, false,  false,  true,   true,   true,   false,  true,   true,   true]
+        ]
+    },
+    "fried eggs": {
+        "name": "Fried Eggs",
+        "descriptors": {
+            "columns": [
+                [5], [1,2], [1,2,3], [1,2,3], [2,2], [4,2,1], [4,2,1], [3,1], [8], [2]
+            ],
+            "rows": [
+                [2], [8], [1,5], [1,4], [1,2,2,1], [1,2,1], [1,2,1], [4,2,1], [4,1], [5]
+            ]
+        },
+        "board": [
+            [false, false,  false,  false,  false,  false,  false,  false,  true,   true],
+            [false, false,  true,   true,   true,   true,   true,   true,   true,   true],
+            [false, true,   false,  false,  true,   true,   true,   true,   true,   false],
+            [true,  false,  false,  false,  false,  true,   true,   true,   true,   false],
+            [true,  false,  true,   true,   false,  true,   true,   false,  true,   false],
+            [true,  false,  true,   true,   false,  false,  false,  false,  true,   false],
+            [true,  false,  false,  false,  false,  true,   true,   false,  true,   false],
+            [true,  true,   true,   true,   false,  true,   true,   false,  true,   false],
+            [false, true,   true,   true,   true,   false,  false,  true,   false,  false],
+            [false, false,  true,   true,   true,   true,   true,   false,  false,  false]
+        ]
+    },
+    "tugboat": {
+        "name": "Tugboat",
+        "descriptors": {
+            "columns": [
+                [1,3], [8], [10], [3,5], [3,5], [8], [5], [9], [4], [2]
+            ],
+            "rows": [
+                [3], [3,1], [6,1], [2,1,1], [2,1,1], [9], [10], [9], [9], [7]
+            ]
+        },
+        "board": [
+            [false, false,  true,   true,   true,   false,  false,  false,  false,  false],
+            [false, false,  true,   true,   true,   false,  false,  true,   false,  false],
+            [true,  true,   true,   true,   true,   true,   false,  true,   false,  false],
+            [false, true,   true,   false,  false,  true,   false,  true,   false,  false],
+            [false, true,   true,   false,  false,  true,   false,  true,   false,  false],
+            [false, true,   true,   true,   true,   true,   true,   true,   true,   true],
+            [true,  true,   true,   true,   true,   true,   true,   true,   true,   true],
+            [true,  true,   true,   true,   true,   true,   true,   true,   true,   false],
+            [true,  true,   true,   true,   true,   true,   true,   true,   true,   false],
+            [false, true,   true,   true,   true,   true,   true,   true,   false,  false]
+        ]
+    },
+    "breakdancer": {
+        "name": "Breakdancer",
+        "descriptors": {
+            "columns": [
+                [4], [2,1], [4], [6], [9], [1,5], [1,3,4], [1,1], [1,2,2], [1,4]
+            ],
+            "rows": [
+                [6], [1], [1,3], [1,5], [1,4,2], [2,3,1], [6,1], [3,1,2], [3,1,1], [3,1]
+            ]
+        },
+        "board": [
+            [false, false,  false,  false,  true,   true,   true,   true,   true,   true],
+            [false, false,  false,  false,  true,   false,  false,  false,  false,  false],
+            [true,  false,  false,  false,  true,   true,   true,   false,  false,  false],
+            [true,  false,  false,  false,  true,   true,   true,   true,   true,   false],
+            [true,  false,  false,  true,   true,   true,   true,   false,  true,   true],
+            [true,  true,   false,  true,   true,   true,   false,  false,  false,  true],
+            [false, true,   true,   true,   true,   true,   true,   false,  false,  true],
+            [false, false,  true,   true,   true,   false,  true,   false,  true,   true],
+            [false, false,  true,   true,   true,   false,  true,   false,  true,   false],
+            [false, true,   true,   true,   false,  false,  true,   false,  false,  false]
+        ]
+    },
+    "wood fairy": {
+        "name": "Wood Fairy",
+        "descriptors": {
+            "columns": [
+                [4], [1,2], [4], [1,2], [1,2], [7,1], [9], [9], [6], [1,3]
+            ],
+            "rows": [
+                [1,1,1,1], [6], [1,4], [1,1,4], [1,7], [9], [2,3,1], [2,1], [2,1], [3]
+            ]
+        },
+        "board": [
+            [false, true,   false,  true,   false,  true,   false,  false,  true,   false],
+            [false, false,  false,  false,  true,   true,   true,   true,   true,   true],
+            [true,  false,  false,  false,  false,  true,   true,   true,   true,   false],
+            [true,  false,  true,   false,  false,  true,   true,   true,   true,   false],
+            [true,  false,  true,   true,   true,   true,   true,   true,   true,   false],
+            [true,  true,   true,   true,   true,   true,   true,   true,   true,   false],
+            [false, true,   true,   false,  false,  true,   true,   true,   false,  true],
+            [false, false,  false,  false,  false,  false,  true,   true,   false,  true],
+            [false, false,  false,  false,  false,  false,  true,   true,   false,  true],
+            [false, false,  false,  false,  false,  true,   true,   true,   false,  false]
+        ]
+    },
+    "heart ornament": {
+        "name": "Heart Ornament",
+        "descriptors": {
+            "columns": [
+                [4], [2,2], [1,2,2], [2,2,2], [2,2,2], [2,2,2], [1,2,2], [2,2], [4]
+            ],
+            "rows": [
+                [3,3], [2,3,2], [1,1,1,1,1], [1,2,2,1], [2,3,2], [2,1,2], [2,2], [3], [1]
+            ]
+        },
+        "board": [
+            [false, true,   true,   true,   false,  true,   true,   true,   false],
+            [true,  true,   false,  true,   true,   true,   false,  true,   true],
+            [true,  false,  true,   false,  true,   false,  true,   false,  true],
+            [true,  false,  true,   true,   false,  true,   true,   false,  true],
+            [true,  true,   false,  true,   true,   true,   false,  true,   true],
+            [false, true,   true,   false,  true,   false,  true,   true,   false],
+            [false, false,  true,   true,   false,  true,   true,   false,  false],
+            [false, false,  false,  true,   true,   true,   false,  false,  false],
+            [false, false,  false,  false,  true,   false,  false,  false,  false]
+        ]
+    },
+    "dracula": {
+        "name": "Dracule",
+        "descriptors": {
+            "columns": [
+                [2], [1,2], [2], [3,3], [8], [6,1,1], [6,1,1], [3,2,1,1], [8], [2,5]
+            ],
+            "rows": [
+                [3], [3], [7], [4,2], [6], [6], [1,1,2], [1,7], [5,2], [9]
+            ]
+        },
+        "board": [
+            [false, false,  false,  false,  false,  true,   true,   true,   false,  false],
+            [false, false,  false,  false,  false,  true,   true,   true,   false,  false],
+            [false, false,  false,  true,   true,   true,   true,   true,   true,   true],
+            [false, false,  false,  true,   true,   true,   true,   false,  true,   true],
+            [false, false,  false,  true,   true,   true,   true,   true,   true,   false],
+            [false, false,  false,  false,  true,   true,   true,   true,   true,   true],
+            [false, true,   false,  false,  true,   false,  false,  false,  true,   true],
+            [true,  false,  false,  true,   true,   true,   true,   true,   true,   true],
+            [true,  true,   true,   true,   true,   false,  false,  false,  true,   true],
+            [false, true,   true,   true,   true,   true,   true,   true,   true,   true]
+        ]
+    },
+    "giant ears": {
+        "name": "Giant Ears",
+        "descriptors": {
+            "columns": [
+                [3], [4,1], [7], [4,3], [6,2], [5,1,2], [1,5,2], [1,8], [5,2], [3,1]
+            ],
+            "rows": [
+                [3], [5], [7], [10], [10], [3,1,4], [8], [2,1], [6], [6]
+            ]
+        },
+        "board": [
+            [false, false,  false,  false,  false,  true,   true,   true,   false,  false],
+            [false, true,   true,   true,   true,   true,   false,  false,  false,  false],
+            [false, false,  true,   true,   true,   true,   true,   true,   true,   false],
+            [true,  true,   true,   true,   true,   true,   true,   true,   true,   true],
+            [true,  true,   true,   true,   true,   true,   true,   true,   true,   true],
+            [true,  true,   true,   false,  true,   false,  true,   true,   true,   true],
+            [false, true,   true,   true,   true,   true,   true,   true,   true,   false],
+            [false, false,  true,   true,   false,  false,  false,  true,   false,  false],
+            [false, false,  false,  true,   true,   true,   true,   true,   true,   false],
+            [false, false,  false,  false,  true,   true,   true,   true,   true,   true]
+        ]
+    },
+    "fox": {
+        "name": "Fox",
+        "descriptors": {
+            "columns": [
+                [4], [6], [9], [1,4], [1,1], [8], [1,3], [1,2], [8]
+            ],
+            "rows": [
+                [3], [3,1,1], [3,4], [3,1,1], [4,1,1], [6,1], [2,4], [7], [1,1,1]
+            ]
+        },
+        "board": [
+            [false, true,   true,   true,   false,  false,  false,  false,  false],
+            [true,  true,   true,   false,  false,  true,   false,  false,  true],
+            [true,  true,   true,   false,  false,  true,   true,   true,   true],
+            [true,  true,   true,   false,  false,  true,   false,  false,  true],
+            [true,  true,   true,   true,   false,  true,   false,  false,  true],
+            [false, true,   true,   true,   true,   true,   true,   false,  true],
+            [false, false,  true,   true,   false,  true,   true,   true,   true],
+            [false, false,  true,   true,   true,   true,   true,   true,   true],
+            [false, false,  true,   false,  false,  true,   false,  false,  true]
+        ]
+    },
+    "laser-eyed hero": {
+        "name": "Laser-eyed Hero",
+        "descriptors": {
+            "columns": [
+                [1], [1], [1], [1,1], [1,1,1], [4,1], [4,5], [9], [1,4], [3,1]
+            ],
+            "rows": [
+                [4], [3], [7], [3,3,1], [1,1], [6], [3], [3], [3], [1,1]
+            ]
+        },
+        "board": [
+            [false, false,  false,  false,  true,   true,   true,   true,   false,  false],
+            [false, false,  false,  false,  false,  true,   true,   true,   false,  false],
+            [false, false,  false,  true,   true,   true,   true,   true,   true,   true],
+            [true,  true,   true,   false,  false,  true,   true,   true,   false,  true],
+            [false, false,  false,  false,  false,  false,  false,  true,   false,  true],
+            [false, false,  false,  true,   true,   true,   true,   true,   true,   false],
+            [false, false,  false,  false,  false,  false,  true,   true,   true,   false],
+            [false, false,  false,  false,  false,  false,  true,   true,   true,   false],
+            [false, false,  false,  false,  false,  false,  true,   true,   true,   false],
+            [false, false,  false,  false,  false,  false,  true,   false,  false,  true]
+        ]
+    },
+    "ninja": {
+        "name": "Ninja",
+        "descriptors": {
+            "columns": [
+                [1,1,1], [1,1], [3,1,1], [2,5], [8], [2,5], [4,1,1], [1,1,1,3], [1,1], [1]
+            ],
+            "rows": [
+                [5], [5], [1,1,1,1], [1,6,1], [3,1], [8], [3], [8], [1], [1]
+            ]
+        },
+        "board": [
+            [false, false,  false,  true,   true,   true,   true,   true,   false,  false],
+            [false, false,  true,   true,   true,   true,   true,   false,  false,  false],
+            [false, false,  true,   false,  true,   false,  true,   false,  true,   false],
+            [true,  false,  true,   true,   true,   true,   true,   true,   false,  true],
+            [false, false,  false,  true,   true,   true,   false,  false,  true,   false],
+            [true,  true,   true,   true,   true,   true,   true,   true,   false,  false],
+            [false, false,  false,  true,   true,   true,   false,  false,  false,  false],
+            [true,  true,   true,   true,   true,   true,   true,   true,   false,  false],
+            [false, false,  false,  false,  false,  false,  false,  true,   false,  false],
+            [false, false,  false,  false,  false,  false,  false,  true,   false,  false]
+        ]
+    },
+    "mouse": {
+        "name": "Mouse",
+        "descriptors": {
+            "columns": [
+                [3,1], [1,5], [1], [1,6], [1,1,1,1], [1,1,1,1], [4,1], [1,1,2], [8], [6]
+            ],
+            "rows": [
+                [4], [1,1], [1,5], [1,1,1,2], [2,1,1,2], [1,3,3], [1,1,2], [1,1,2], [1,1,3], [1,5]
+            ]
+        },
+        "board": [
+            [false, false,  true,   true,   true,   true,   false,  false,  false,  false],
+            [false, true,   false,  false,  false,  false,  true,   false,  false,  false],
+            [true,  false,  false,  false,  true,   true,   true,   true,   true,   false],
+            [true,  false,  false,  true,   false,  false,  true,   false,  true,   true],
+            [true,  true,   false,  true,   false,  false,  true,   false,  true,   true],
+            [false, true,   false,  true,   true,   true,   false,  true,   true,   true],
+            [false, true,   false,  true,   false,  false,  false,  false,  true,   true],
+            [false, true,   false,  true,   false,  false,  false,  false,  true,   true],
+            [false, true,   false,  true,   false,  false,  false,  true,   true,   true],
+            [true,  false,  false,  false,  true,   true,   true,   true,   true,   false]
+        ]
+    },
+    "mouse head": {
+        "name": "Mouse Head",
+        "descriptors": {
+            "columns": [
+                [2,1], [4,1,2], [4,1], [9], [7], [7], [8], [5,1], [4,2,1], [2,1]
+            ],
+            "rows": [
+                [3,2], [4,4], [4,4], [8], [5], [4,1], [2,4,1], [6], [1,4,2], [1,2]
+            ]
+        },
+        "board": [
+            [false, true,   true,   true,   false,  false,  false,  true,   true,   false],
+            [true,  true,   true,   true,   false,  false,  true,   true,   true,   true],
+            [true,  true,   true,   true,   false,  false,  true,   true,   true,   true],
+            [false, true,   true,   true,   true,   true,   true,   true,   true,   false],
+            [false, false,  false,  true,   true,   true,   true,   true,   false,  false],
+            [false, false,  false,  true,   true,   true,   true,   false,  true,   false],
+            [true,  true,   false,  true,   true,   true,   true,   false,  true,   false],
+            [false, false,  true,   true,   true,   true,   true,   true,   false,  false],
+            [false, true,   false,  true,   true,   true,   true,   false,  true,   true],
+            [false, true,   false,  false,  true,   true,   false,  false,  false,  false]
+        ]
+    },
+    "snowman": {
+        "name": "Snowman",
+        "descriptors": {
+            "columns": [
+                [2,3], [1,2,1,2], [2,2], [2,2], [5], [3], [2,1,1], [2], [2,1,1], [1,2]
+            ],
+            "rows": [
+                [2,1], [1], [3,3], [3,3], [2], [3], [1,3], [1,3,1], [3,1,1,1], [2,2]
+            ]
+        },
+        "board": [
+            [true,  true,   false,  false,  false,  false,  false,  false,  false,  true],
+            [true,  false,  false,  false,  false,  false,  false,  false,  false,  false],
+            [false, true,   true,   true,   false,  false,  true,   true,   true,   false],
+            [false, true,   true,   true,   false,  false,  true,   true,   true,   false],
+            [false, false,  false,  false,  true,   true,   false,  false,  false,  false],
+            [false, false,  false,  false,  true,   true,   true,   false,  false,  false],
+            [false, true,   false,  true,   true,   true,   false,  false,  false,  false],
+            [true,  false,  true,   true,   true,   false,  false,  false,  true,   false],
+            [true,  true,   true,   false,  true,   false,  true,   false,  false,  true],
+            [true,  true,   false,  false,  false,  false,  false,  false,  true,   true]
+        ]
+    },
+    "fairy": {
+        "name": "Fairy",
+        "descriptors": {
+            "columns": [
+                [3], [6], [10], [7], [9], [5,4], [4,1,1], [2,1,1], [3,1], [2]
+            ],
+            "rows": [
+                [3,2,2], [3,6], [3,5], [6], [5], [4], [4,1], [5], [4], [7]
+            ]
+        },
+        "board": [
+            [true,  true,   true,   false,  false,  true,   true,   false,  true,   true],
+            [true,  true,   true,   false,  true,   true,   true,   true,   true,   true],
+            [true,  true,   true,   false,  true,   true,   true,   true,   true,   false],
+            [false, true,   true,   true,   true,   true,   true,   false,  false,  false],
+            [false, true,   true,   true,   true,   false,  true,   false,  false,  false],
+            [false, true,   true,   true,   true,   false,  false,  false,  false,  false],
+            [false, false,  true,   true,   true,   true,   false,  true,   false,  false],
+            [false, false,  true,   true,   true,   true,   true,   false,  false,  false],
+            [false, false,  true,   true,   true,   true,   false,  false,  false,  false],
+            [false, false,  true,   true,   true,   true,   true,   true,   true,   false]
+        ]
+    },
+    "green chilli": {
+        "name": "Green Chilli",
+        "descriptors": {
+            "columns": [
+                [2,3], [2,2], [1,2,2], [2,1,3], [1,1,4], [1,4], [6], [5], [3]
+            ],
+            "rows": [
+                [4], [2,1,2], [2,1,3], [2,3], [1,4], [4], [1,4], [6], [5]
+            ]
+        },
+        "board": [
+            [false, false,  true,   true,   true,   true,   false,  false,  false],
+            [true,  true,   false,  true,   false,  false,  true,   true,   false],
+            [true,  true,   false,  false,  true,   false,  true,   true,   true],
+            [false, false,  true,   true,   false,  false,  true,   true,   true],
+            [false, false,  true,   false,  false,  true,   true,   true,   true],
+            [false, false,  false,  false,  true,   true,   true,   true,   false],
+            [true,  false,  false,  true,   true,   true,   true,   false,  false],
+            [true,  true,   true,   true,   true,   true,   false,  false,  false],
+            [true,  true,   true,   true,   true,   false,  false,  false,  false]
+        ]
+    },
+    "seagull": {
+        "name": "Seagull",
+        "descriptors": {
+            "columns": [
+                [1], [2], [2,1,1], [3,3], [6], [5], [6], [9], [5,3], [3,1]
+            ],
+            "rows": [
+                [2], [3], [2,3], [3,3], [6], [4], [6], [1,6], [10], [2]
+            ]
+        },
+        "board": [
+            [false, false,  false,  false,  false,  false,  false,  false,  true,   true],
+            [false, false,  false,  false,  false,  false,  false,  true,   true,   true],
+            [false, false,  true,   true,   false,  false,  false,  true,   true,   true],
+            [false, false,  true,   true,   true,   false,  true,   true,   true,   false],
+            [false, false,  false,  true,   true,   true,   true,   true,   true,   false],
+            [false, false,  false,  false,  true,   true,   true,   true,   false,  false],
+            [false, false,  true,   true,   true,   true,   true,   true,   false,  false],
+            [false, true,   false,  true,   true,   true,   true,   true,   true,   false],
+            [true,  true,   true,   true,   true,   true,   true,   true,   true,   true],
+            [false, false,  false,  false,  false,  false,  false,  true,   true,   false]
+        ]
+    },
+    "coffee pot": {
+        "name": "Coffee Pot",
+        "descriptors": {
+            "columns": [
+                [1], [2,2], [1,2,2], [2,2,1], [10], [9], [4,3], [2,2], [1], [4]
+            ],
+            "rows": [
+                [1], [10], [1,5,1], [1,3,1], [1,3,1], [3], [3], [1,3], [2,4], [1,5]
+            ]
+        },
+        "board": [
+            [false, false,  false,  false,  true,   false,  false,  false,  false,  false],
+            [true,  true,   true,   true,   true,   true,   true,   true,   true,   true],
+            [false, true,   false,  true,   true,   true,   true,   true,   false,  true],
+            [false, false,  true,   false,  true,   true,   true,   false,  false,  true],
+            [false, false,  true,   false,  true,   true,   true,   false,  false,  true],
+            [false, false,  false,  true,   true,   true,   false,  false,  false,  false],
+            [false, false,  false,  true,   true,   true,   false,  false,  false,  false],
+            [false, false,  true,   false,  true,   true,   true,   false,  false,  false],
+            [false, true,   true,   false,  true,   true,   true,   true,   false,  false],
+            [false, true,   false,  true,   true,   true,   true,   true,   false,  false]
+        ]
+    },
+    "clawed hero": {
+        "name": "Clawed Hero",
+        "descriptors": {
+            "columns": [
+                [1], [1], [2], [1], [4,1], [2,2,4], [6,3], [4,5], [4,1,1], [2]
+            ],
+            "rows": [
+                [5], [5], [1,3], [5], [2], [3], [1,1,1], [6,1], [3,4], [3]
+            ]
+        },
+        "board": [
+            [false, false,  false,  false,  true,   true,   true,   true,   true,   false],
+            [false, false,  false,  false,  true,   true,   true,   true,   true,   false],
+            [false, false,  false,  false,  true,   false,  true,   true,   true,   false],
+            [false, false,  false,  false,  true,   true,   true,   true,   true,   false],
+            [false, false,  false,  false,  false,  true,   true,   false,  false,  false],
+            [false, false,  false,  false,  false,  false,  true,   true,   true,   false],
+            [false, false,  false,  false,  false,  true,   false,  true,   false,  true],
+            [false, false,  true,   true,   true,   true,   true,   true,   false,  true],
+            [true,  true,   true,   false,  false,  true,   true,   true,   true,   false],
+            [false, false,  false,  false,  false,  true,   true,   true,   false,  false]
+        ]
+    },
+    "wonder hero": {
+        "name": "Wonder Hero",
+        "descriptors": {
+            "columns": [
+                [2], [1,1], [3,1], [1,6,1], [4,5], [9], [7,1], [4], [2,3], [1,2]
+            ],
+            "rows": [
+                [3], [1,3], [7], [1,6,1], [1,1,4], [8], [4,1], [4,2], [2,1], [2,1,1]
+            ]
+        },
+        "board": [
+            [false, false,  false,  true,   true,   true,   false,  false,  false,  false],
+            [false, false,  true,   false,  true,   true,   true,   false,  false,  false],
+            [false, true,   true,   true,   true,   true,   true,   true,   false,  false],
+            [true,  false,  true,   true,   true,   true,   true,   true,   false,  true],
+            [true,  false,  false,  true,   false,  true,   true,   true,   true,   false],
+            [false, true,   true,   true,   true,   true,   true,   true,   true,   false],
+            [false, false,  false,  true,   true,   true,   true,   false,  false,  true],
+            [false, false,  false,  true,   true,   true,   true,   false,  true,   true],
+            [false, false,  false,  false,  true,   true,   false,  false,  true,   false],
+            [false, false,  false,  true,   true,   false,  true,   false,  true,   false]
+        ]
+    },
+    "rage": {
+        "name": "rage",
+        "descriptors": {
+            "columns": [
+                [1,3], [3,2], [5,1], [10], [6,1], [6,1], [2,1,5], [6,1], [6,1], [1,4]
+            ],
+            "rows": [
+                [5], [7], [4,2], [9], [5,3], [9], [1,1,1,2], [2,1,1,1], [3,1,1], [7]
+            ]
+        },
+        "board": [
+            [false, false,  false,  true,   true,   true,   true,   true,   false,  false],
+            [false, false,  true,   true,   true,   true,   true,   true,   true,   false],
+            [false, false,  true,   true,   true,   true,   false,  true,   true,   false],
+            [true,  true,   true,   true,   true,   true,   true,   true,   true,   false],
+            [false, true,   true,   true,   true,   true,   false,  true,   true,   true],
+            [true,  true,   true,   true,   true,   true,   true,   true,   true,   false],
+            [true,  false,  false,  true,   false,  false,  true,   false,  true,   true],
+            [true,  true,   false,  true,   false,  false,  true,   false,  false,  true],
+            [false, true,   true,   true,   false,  false,  true,   false,  false,  true],
+            [false, false,  false,  true,   true,   true,   true,   true,   true,   true]
+        ]
+    },
+    "dragon": {
+        "name": "Dragon",
+        "descriptors": {
+            "columns": [
+                [1], [1,2], [1,4], [2,3,1], [6], [3,1], [6,1], [3,2,2], [3,1,1], [3,2]
+            ],
+            "rows": [
+                [2,1], [3,3], [2,4], [4,1], [3], [6], [4,3], [3,1,1], [1,1,1], [1,4]
+            ]
+        },
+        "board": [
+            [true,  true,   false,  false,  false,  false,  false,  false,  true,   false],
+            [false, false,  true,   true,   true,   false,  false,  true,   true,   true],
+            [false, false,  false,  true,   true,   false,  true,   true,   true,   true],
+            [false, false,  false,  false,  true,   true,   true,   true,   false,  true],
+            [false, false,  false,  false,  true,   true,   true,   false,  false,  false],
+            [false, false,  true,   true,   true,   true,   true,   true,   false,  false],
+            [false, true,   true,   true,   true,   false,  true,   true,   true,   false],
+            [false, true,   true,   true,   false,  false,  true,   false,  false,  true],
+            [false, false,  true,   false,  false,  false,  false,  true,   false,  true],
+            [false, false,  false,  true,   false,  true,   true,   true,   true,   false]
+        ]
+    },
+    "cobra": {
+        "name": "Cobra",
+        "descriptors": {
+            "columns": [
+                [1], [3], [1,1,1,1], [1,1,2,1], [1,3,1], [1,1,1,1], [6,1], [1,3,2], [3,4], [1,2]
+            ],
+            "rows": [
+                [3], [2,1], [5], [2,1,2], [5], [1,2], [1,2], [3,2], [2,3], [8]
+            ]
+        },
+        "board": [
+            [false, false,  false,  false,  true,   true,   true,   false,  false,  false],
+            [false, false,  true,   true,   false,  false,  true,   false,  false,  false],
+            [false, false,  false,  false,  true,   true,   true,   true,   true,   false],
+            [false, false,  false,  true,   true,   false,  true,   false,  true,   true],
+            [false, false,  false,  false,  true,   true,   true,   true,   true,   false],
+            [false, false,  true,   false,  false,  false,  true,   true,   false,  false],
+            [false, false,  false,  true,   false,  false,  false,  true,   true,   false],
+            [false, true,   true,   true,   false,  false,  false,  false,  true,   true],
+            [true,  true,   false,  false,  false,  false,  false,  true,   true,   true],
+            [false, true,   true,   true,   true,   true,   true,   true,   true,   false]
+        ]
+    },
+    "zeus": {
+        "name": "Zeus",
+        "descriptors": {
+            "columns": [
+                [8,1], [1,5,1], [2,3], [2,1,1], [2,1,1], [1,3], [1,8], [9], [9], [8]
+            ],
+            "rows": [
+                [2,2,4], [1,2,3], [2,5], [5,4], [3,4], [2,4], [2,4], [1,1,5], [1,4], [7]
+            ]
+        },
+        "board": [
+            [true,  true,   false,  true,   true,   false,  true,   true,   true,   true],
+            [true,  false,  false,  true,   true,   false,  false,  true,   true,   true],
+            [true,  true,   false,  false,  false,  true,   true,   true,   true,   true],
+            [true,  true,   true,   true,   true,   false,  true,   true,   true,   true],
+            [true,  true,   true,   false,  false,  false,  true,   true,   true,   true],
+            [true,  true,   false,  false,  false,  false,  true,   true,   true,   true],
+            [true,  true,   false,  false,  false,  false,  true,   true,   true,   true],
+            [true,  false,  true,   false,  false,  true,   true,   true,   true,   true],
+            [false, false,  true,   false,  false,  true,   true,   true,   true,   false],
+            [true,  true,   true,   true,   true,   true,   true,   false,  false,  false]
+        ]
+    },
+    "chameleon": {
+        "name": "Chameleon",
+        "descriptors": {
+            "columns": [
+                [3], [3,2], [4], [3,5], [1,1,4], [2,1,3], [1,2,4], [1,2], [1,1], [5]
+            ],
+            "rows": [
+                [5], [1,1,2], [1,1,1], [3,1], [1,1], [4,1], [9], [1,6], [7], [1,1,1]
+            ]
+        },
+        "board": [
+            [false, false,  false,  true,   true,   true,   true,   true,   false,  false],
+            [false, false,  false,  true,   false,  true,   false,  false,  true,   true],
+            [false, false,  false,  true,   false,  false,  true,   false,  false,  true],
+            [false, false,  false,  false,  true,   true,   true,   false,  false,  true],
+            [false, true,   false,  false,  false,  false,  false,  false,  false,  true],
+            [false, true,   true,   true,   true,   false,  false,  false,  false,  true],
+            [true,  true,   true,   true,   true,   true,   true,   true,   true,   false],
+            [true,  false,  true,   true,   true,   true,   true,   true,   false,  false],
+            [true,  true,   true,   true,   true,   true,   true,   false,  false,  false],
+            [false, true,   false,  true,   false,  false,  true,   false,  false,  false]
+        ]
+    },
+    "owl man": {
+        "name": "Owl Man",
+        "descriptors": {
+            "columns": [
+                [3], [3], [2,2], [8], [4,2], [7,1], [2,2,2], [6], [3,2,1], [3,2]
+            ],
+            "rows": [
+                [1,1], [4,3], [8], [5,1], [5,1], [4,3], [2,6], [1,3,1], [1,1], [2,2]
+            ]
+        },
+        "board": [
+            [false, false,  false,  true,   false,  false,  false,  false,  true,   false],
+            [false, false,  true,   true,   true,   true,   false,  true,   true,   true],
+            [false, false,  true,   true,   true,   true,   true,   true,   true,   true],
+            [false, false,  false,  true,   true,   true,   true,   true,   false,  true],
+            [false, true,   true,   true,   true,   true,   false,  true,   false,  false],
+            [true,  true,   true,   true,   false,  true,   true,   true,   false,  false],
+            [true,  true,   false,  true,   true,   true,   true,   true,   true,   false],
+            [true,  false,  false,  true,   true,   true,   false,  false,  true,   false],
+            [false, false,  false,  false,  false,  false,  true,   false,  false,  true],
+            [false, false,  false,  false,  false,  true,   true,   false,  true,   true]
+        ]
+    },
+    "rain cloud": {
+        "name": "Rain Cloud",
+        "descriptors": {
+            "columns": [
+                [5,1], [2,1], [1,5,1], [4], [1,3,1], [1,2], [6,1,1], [5], [7,1], [2]
+            ],
+            "rows": [
+                [2], [3,4], [2,2,4], [1,2,5], [9], [1,1,1,1,1], [1,1,1,1], [1,1,1], [1,1], [1,1,1]
+            ]
+        },
+        "board": [
+            [false, false,  false,  false,  false,  false,  true,   true,   false,  false],
+            [false, true,   true,   true,   false,  true,   true,   true,   true,   false],
+            [true,  true,   false,  true,   true,   false,  true,   true,   true,   true],
+            [true,  false,  true,   true,   false,  true,   true,   true,   true,   true],
+            [true,  true,   true,   true,   true,   true,   true,   true,   true,   false],
+            [true,  false,  true,   false,  true,   false,  true,   false,  true,   false],
+            [true,  false,  true,   false,  true,   false,  false,  false,  true,   false],
+            [false, false,  true,   false,  false,  false,  true,   false,  true,   false],
+            [true,  false,  false,  false,  true,   false,  false,  false,  false,  false],
+            [false, false,  true,   false,  false,  false,  true,   false,  true,   false]
+        ]
+    },
+    "cherry branch": {
+        "name": "Cherry Branch",
+        "descriptors": {
+            "columns": [
+                [1,3], [3,4], [2,2], [1,2,1], [2,1,3], [3,2,2], [3,1], [2,1,3], [7], [1,3]
+            ],
+            "rows": [
+                [4], [2,4], [2,3], [3,1], [7], [1,1], [4,3], [3,2,3], [2,2,3], [2,1]
+            ]
+        },
+        "board": [
+            [false, false,  false,  true,   true,   true,   true,   false,  false,  false],
+            [true,  true,   false,  false,  true,   true,   true,   true,   false,  false],
+            [false, true,   true,   false,  false,  true,   true,   true,   false,  false],
+            [false, true,   true,   true,   false,  false,  false,  false,  true,   false],
+            [false, false,  false,  true,   true,   true,   true,   true,   true,   true],
+            [false, false,  false,  false,  false,  true,   false,  false,  true,   false],
+            [false, true,   true,   true,   true,   false,  false,  true,   true,   true],
+            [true,  true,   true,   false,  true,   true,   false,  true,   true,   true],
+            [true,  true,   false,  false,  true,   true,   false,  true,   true,   true],
+            [true,  true,   false,  false,  false,  false,  false,  false,  true,   false]
+        ]
+    },
+    "mermaid": {
+        "name": "Mermaid",
+        "descriptors": {
+            "columns": [
+                [1], [1,1], [2,1,2], [9], [10], [5,4], [5,1], [6,1], [3,2], [2,2]
+            ],
+            "rows": [
+                [3], [5,2], [9], [6], [6], [1,2,2], [1,4,1,1], [4,3], [3,1], [4]
+            ]
+        },
+        "board": [
+            [false, false,  false,  true,   true,   true,   false,  false,  false,  false],
+            [false, false,  true,   true,   true,   true,   true,   false,  true,   true],
+            [false, true,   true,   true,   true,   true,   true,   true,   true,   true],
+            [false, false,  false,  true,   true,   true,   true,   true,   true,   false],
+            [false, false,  true,   true,   true,   true,   true,   true,   false,  false],
+            [false, true,   false,  true,   true,   false,  true,   true,   false,  false],
+            [true,  false,  true,   true,   true,   true,   false,  true,   false,  true],
+            [false, false,  true,   true,   true,   true,   false,  true,   true,   true],
+            [false, false,  false,  true,   true,   true,   false,  false,  true,   false],
+            [false, false,  false,  false,  true,   true,   true,   true,   false,  false]
+        ]
+    },
+    "super hero": {
+        "name": "Super Hero",
+        "descriptors": {
+            "columns": [
+                [3], [1,1], [1,1], [4,5], [1,3,4], [10], [1,2], [1,2,1], [1,1], [4]
+            ],
+            "rows": [
+                [3], [2,1], [1,3], [1,6], [1,2,1], [4,1,1,1], [3,1,1], [3,1], [6], [4]
+            ]
+        },
+        "board": [
+            [false, false,  false,  true,   true,   true,   false,  false,  false,  false],
+            [false, false,  true,   true,   false,  true,   false,  false,  false,  false],
+            [true,  false,  false,  true,   true,   true,   false,  false,  false,  false],
+            [true,  false,  false,  true,   true,   true,   true,   true,   true,   false],
+            [true,  false,  false,  false,  true,   true,   false,  false,  false,  true],
+            [true,  true,   true,   true,   false,  true,   false,  true,   false,  true],
+            [false, false,  false,  true,   true,   true,   false,  true,   false,  true],
+            [false, false,  false,  true,   true,   true,   false,  false,  false,  true],
+            [false, false,  false,  true,   true,   true,   true,   true,   true,   false],
+            [false, false,  false,  true,   true,   true,   true,   false,  false,  false]
+        ]
+    },
+    "groucho mask": {
+        "name": "Groucho Mask",
+        "descriptors": {
+            "columns": [
+                [7], [1,1,3], [2,3], [6,1], [3,2], [6], [6], [1,2,1,3], [1,5,2], [5,1]
+            ],
+            "rows": [
+                [1,2], [1,1], [1,2,3], [4,3], [1,4,2], [10], [7,1], [4,3], [5], [7]
+            ]
+        },
+        "board": [
+            [false, true,   false,  false,  false,  false,  false,  true,   true,   false],
+            [true,  false,  false,  false,  false,  false,  false,  false,  false,  true],
+            [true,  false,  true,   true,   false,  false,  false,  true,   true,   true],
+            [true,  true,   true,   true,   false,  false,  false,  true,   true,   true],
+            [true,  false,  false,  true,   true,   true,   true,   false,  true,   true],
+            [true,  true,   true,   true,   true,   true,   true,   true,   true,   true],
+            [true,  true,   true,   true,   true,   true,   true,   false,  true,   false],
+            [true,  true,   true,   true,   false,  true,   true,   true,   false,  false],
+            [false, false,  false,  false,  true,   true,   true,   true,   true,   false],
+            [false, false,  false,  true,   true,   true,   true,   true,   true,   true]
+        ]
+    },
+    "swan": {
+        "name": "Swan",
+        "descriptors": {
+            "columns": [
+                [4], [1,2,2], [1,1,3], [1,4], [2,5], [4,3], [5], [5], [1,5], [5]
+            ],
+            "rows": [
+                [4], [1,2], [1,1,1], [3,1,1], [2,2,2], [2,4], [8], [9], [8], [2]
+            ]
+        },
+        "board": [
+            [false, true,   true,   true,   true,   false,  false,  false,  false,  false],
+            [true,  false,  false,  false,  true,   true,   false,  false,  false,  false],
+            [true,  false,  false,  false,  false,  true,   false,  false,  true,   false],
+            [true,  true,   true,   false,  false,  true,   false,  false,  false,  true],
+            [true,  true,   false,  false,  true,   true,   false,  false,  true,   true],
+            [false, false,  false,  true,   true,   false,  true,   true,   true,   true],
+            [false, false,  true,   true,   true,   true,   true,   true,   true,   true],
+            [false, true,   true,   true,   true,   true,   true,   true,   true,   true],
+            [false, true,   true,   true,   true,   true,   true,   true,   true,   false],
+            [false, false,  false,  false,  false,  false,  true,   true,   false,  false]
+        ]
+    },
+    "galeon": {
+        "name": "Galeon",
+        "descriptors": {
+            "columns": [
+                [1,1,3], [5,4], [1,8], [3,4], [3], [1,1,3], [10], [1,3,2], [3,2], [1]
+            ],
+            "rows": [
+                [3,3], [1,1,1,1], [3,3], [3,3], [3,3], [1,1], [4,1,1], [10], [8], [6]
+            ]
+        },
+        "board": [
+            [true,  true,   true,   false,  false,  true,   true,   true,   false,  false],
+            [false, true,   false,  true,   false,  false,  true,   false,  true,   false],
+            [false, true,   true,   true,   false,  false,  true,   true,   true,   false],
+            [false, true,   true,   true,   false,  false,  true,   true,   true,   false],
+            [true,  true,   true,   false,  false,  true,   true,   true,   false,  false],
+            [false, false,  true,   false,  false,  false,  true,   false,  false,  false],
+            [true,  true,   true,   true,   false,  false,  true,   false,  true,   false],
+            [true,  true,   true,   true,   true,   true,   true,   true,   true,   true],
+            [true,  true,   true,   true,   true,   true,   true,   true,   false,  false],
+            [false, true,   true,   true,   true,   true,   true,   false,  false,  false]
+        ]
+    },
+    "mushroom house": {
+        "name": "Mushroom House",
+        "descriptors": {
+            "columns": [
+                [2], [1,4], [1,5], [4,3], [1,5], [6], [4,1], [3,1], [2]
+            ],
+            "rows": [
+                [2], [1,2], [3,2], [1,1,2], [1,5], [3,4], [5], [5], [6]
+            ]
+        },
+        "board": [
+            [false, false,  false,  false,  false,  false,  false,  true,   true],
+            [false, false,  false,  true,   false,  false,  false,  true,   true],
+            [false, false,  true,   true,   true,   false,  true,   true,   false],
+            [false, true,   false,  true,   false,  true,   true,   false,  false],
+            [true,  false,  true,   true,   true,   true,   true,   false,  false],
+            [true,  true,   true,   false,  true,   true,   true,   true,   false],
+            [false, true,   true,   true,   true,   true,   false,  false,  false],
+            [false, true,   true,   true,   true,   true,   false,  false,  false],
+            [false, true,   true,   true,   true,   true,   true,   false,  false]
+        ]
+    },
+    "fish": {
+        "name": "fish",
+        "descriptors": {
+            "columns": [
+                [2], [4], [1,4], [1,5], [2,6], [9], [1,2,1], [1,4], [1,2,1]
+            ],
+            "rows": [
+                [4], [3], [1,1,1], [1,3,1], [9], [9], [5,1], [4,1], [3]
+            ]
+        },
+        "board": [
+            [false, false,  false,  false,  true,   true,   true,   true,   false],
+            [false, false,  false,  true,   true,   true,   false,  false,  false],
+            [false, false,  true,   false,  false,  true,   false,  false,  true],
+            [false, true,   false,  true,   true,   true,   false,  true,   false],
+            [true,  true,   true,   true,   true,   true,   true,   true,   true],
+            [true,  true,   true,   true,   true,   true,   true,   true,   true],
+            [false, true,   true,   true,   true,   true,   false,  true,   false],
+            [false, false,  true,   true,   true,   true,   false,  false,  true],
+            [false, false,  false,  false,  true,   true,   true,   false,  false]
+        ]
+    },
+    "monkey": {
+        "name": "Monkey",
+        "descriptors": {
+            "columns": [
+                [3], [1,1], [9], [7], [9], [1,1,1], [1,1], [2,1,1], [3]
+            ],
+            "rows": [
+                [3], [3,1], [3,1], [7], [1,3], [1,7], [3,1], [1,1,2], [2,2]
+            ]
+        },
+        "board": [
+            [false, false,  true,   true,   true,   false,  false,  false,  false],
+            [false, false,  true,   true,   true,   false,  false,  true,   false],
+            [false, false,  true,   true,   true,   false,  false,  true,   false],
+            [true,  true,   true,   true,   true,   true,   true,   false,  false],
+            [true,  false,  true,   true,   true,   false,  false,  false,  false],
+            [true,  false,  true,   true,   true,   true,   true,   true,   true],
+            [false, false,  true,   true,   true,   false,  false,  false,  true],
+            [false, false,  true,   false,  true,   false,  false,  true,   true],
+            [false, true,   true,   false,  true,   true,   false,  false,  false]
+        ]
+    },
+    "turtle ninja": {
+        "name": "Turtle Ninja",
+        "descriptors": {
+            "columns": [
+                [3], [4], [1,3], [5], [10], [9], [8], [8], [1,5], [1]
+            ],
+            "rows": [
+                [1,2], [1,3], [1,5], [1,4,1], [8], [1,6], [1,6], [7], [7], [1,1,1]
+            ]
+        },
+        "board": [
+            [true,  false,  false,  false,  true,   true,   false,  false,  false,  false],
+            [true,  false,  false,  false,  true,   true,   true,   false,  false,  false],
+            [true,  false,  false,  false,  true,   true,   true,   true,   true,   false],
+            [false, true,   false,  false,  true,   true,   true,   true,   false,  true],
+            [false, true,   true,   true,   true,   true,   true,   true,   true,   false],
+            [false, true,   false,  true,   true,   true,   true,   true,   true,   false],
+            [false, true,   false,  true,   true,   true,   true,   true,   true,   false],
+            [false, false,  true,   true,   true,   true,   true,   true,   true,   false],
+            [false, false,  true,   true,   true,   true,   true,   true,   true,   false],
+            [false, false,  true,   false,  true,   false,  false,  true,   false,  false]
+        ]
+    },
+    "rose": {
+        "name": "Rose",
+        "descriptors": {
+            "columns": [
+                [2], [2], [2,2], [5], [4], [6], [6,1], [6,1], [4], [2]
+            ],
+            "rows": [
+                [2], [4], [1,6], [8], [6], [5], [2,1], [3,2], [2], [1]
+            ]
+        },
+        "board": [
+            [false, false,  false,  false,  false,  false,  true,   true,   false,  false],
+            [false, false,  false,  false,  false,  true,   true,   true,   true,   false],
+            [false, false,  true,   false,  true,   true,   true,   true,   true,   true],
+            [false, false,  true,   true,   true,   true,   true,   true,   true,   true],
+            [false, false,  false,  true,   true,   true,   true,   true,   true,   false],
+            [false, false,  false,  true,   true,   true,   true,   true,   false,  false],
+            [false, false,  true,   true,   false,  true,   false,  false,  false,  false],
+            [false, true,   true,   true,   false,  false,  true,   true,   false,  false],
+            [true,  true,   false,  false,  false,  false,  false,  false,  false,  false],
+            [true,  false,  false,  false,  false,  false,  false,  false,  false,  false]
+        ]
+    },
+    "needle and thread": {
+        "name": "Needle and Thread",
+        "descriptors": {
+            "columns": [
+                [1,1], [2,1], [2,1], [3,1], [4,1], [1,2], [1,3], [3]
+            ],
+            "rows": [
+                [2], [3], [3], [4], [1,1], [2,1,2], [1,1,3], [3]
+            ]
+        },
+        "board": [
+            [true,  true,   false,  false,  false,  false,  false,  false],
+            [false, true,   true,   true,   false,  false,  false,  false],
+            [false, false,  true,   true,   true,   false,  false,  false],
+            [false, false,  false,  true,   true,   true,   true,   false],
+            [false, false,  false,  false,  true,   false,  false,  true],
+            [false, true,   true,   false,  true,   false,  true,   true],
+            [true,  false,  false,  true,   false,  true,   true,   true],
+            [false, false,  false,  false,  true,   true,   true,   false]
+        ]
+    },
+    "starfish": {
+        "name": "Starfish",
+        "descriptors": {
+            "columns": [
+                [1], [2], [2], [9], [1,5], [1,3], [5], [2,3], [1,1]
+            ],
+            "rows": [
+                [1], [2], [1,1], [2,3], [7], [7], [5], [2,2], [1,2]
+            ]
+        },
+        "board": [
+            [false, false,  false,  true,   false,  false,  false,  false,  false],
+            [false, false,  false,  true,   true,   false,  false,  false,  false],
+            [false, false,  false,  true,   false,  true,   false,  false,  false],
+            [false, false,  false,  true,   true,   false,  true,   true,   true],
+            [false, true,   true,   true,   true,   true,   true,   true,   false],
+            [true,  true,   true,   true,   true,   true,   true,   false,  false],
+            [false, false,  false,  true,   true,   true,   true,   true,   false],
+            [false, false,  false,  true,   true,   false,  true,   true,   false],
+            [false, false,  false,  true,   false,  false,  false,  true,   true]
+        ]
+    },
+    "wasp": {
+        "name": "Wasp",
+        "descriptors": {
+            "columns": [
+                [5], [6], [4], [7], [9], [10], [4,3], [4,2], [3,1], [1]
+            ],
+            "rows": [
+                [2,2], [2,4], [2,6], [2,6], [9], [5], [4], [5,1], [6], [3]
+            ]
+        },
+        "board": [
+            [true,  true,   false,  false,  true,   true,   false,  false,  false,  false],
+            [true,  true,   false,  false,  true,   true,   true,   true,   false,  false],
+            [true,  true,   false,  true,   true,   true,   true,   true,   true,   false],
+            [true,  true,   false,  true,   true,   true,   true,   true,   true,   false],
+            [true,  true,   true,   true,   true,   true,   true,   true,   true,   false],
+            [false, true,   true,   true,   true,   true,   false,  false,  false,  false],
+            [false, false,  true,   true,   true,   true,   false,  false,  false,  false],
+            [false, false,  true,   true,   true,   true,   true,   false,  false,  true],
+            [false, false,  false,  true,   true,   true,   true,   true,   true,   false],
+            [false, false,  false,  false,  false,  true,   true,   true,   false,  false]
+        ]
+    },
+    "raptor": {
+        "name": "Raptor",
+        "descriptors": {
+            "columns": [
+                [3], [1,3], [1,6], [4,1], [5], [8], [2,1], [5], [2,1], [2]
+            ],
+            "rows": [
+                [2,2], [1,3], [1,3,1], [1,6], [7], [5,2], [2,2], [1,1], [1,1], [1,2]
+            ]
+        },
+        "board": [
+            [false, true,   true,   false,  false,  false,  false,  false,  true,   true],
+            [true,  false,  false,  false,  false,  false,  false,  true,   true,   true],
+            [true,  false,  false,  true,   true,   true,   false,  true,   false,  false],
+            [true,  false,  true,   true,   true,   true,   true,   true,   false,  false],
+            [false, true,   true,   true,   true,   true,   true,   true,   false,  false],
+            [false, true,   true,   true,   true,   true,   false,  true,   true,   false],
+            [false, true,   true,   false,  true,   true,   false,  false,  false,  false],
+            [false, false,  true,   false,  false,  true,   false,  false,  false,  false],
+            [false, false,  true,   false,  false,  true,   false,  false,  false,  false],
+            [false, false,  false,  true,   false,  true,   true,   false,  false,  false]
+        ]
+    },
+    "aubergine": {
+        "name": "Aubergine",
+        "descriptors": {
+            "columns": [
+                [3], [3], [5], [6], [1,4], [1,3], [5], [4]
+            ],
+            "rows": [
+                [1], [4], [5], [3,2], [3,2], [6], [5], [4]
+            ]
+        },
+        "board": [
+            [true,  false,  false,  false,  false,  false,  false,  false],
+            [true,  true,   true,   true,   false,  false,  false,  false],
+            [true,  true,   true,   true,   true,   false,  false,  false],
+            [false, true,   true,   true,   false,  true,   true,   false],
+            [false, false,  true,   true,   true,   false,  true,   true],
+            [false, false,  true,   true,   true,   true,   true,   true],
+            [false, false,  false,  true,   true,   true,   true,   true],
+            [false, false,  false,  false,  true,   true,   true,   true]
+        ]
+    },
+    "cotton spool": {
+        "name": "Cotton Spool",
+        "descriptors": {
+            "columns": [
+                [2], [3], [5], [7], [3,4], [2,4], [2,6], [1,4], [1,2], [2]
+            ],
+            "rows": [
+                [2,3], [3,1,1], [5,1], [4,2], [5,2], [7], [6], [4], [2], [0]
+            ]
+        },
+        "board": [
+            [false, false,  false,  true,   true,   false,  true,   true,   true,   false],
+            [false, false,  true,   true,   true,   false,  true,   false,  false,  true],
+            [false, true,   true,   true,   true,   true,   false,  false,  false,  true],
+            [true,  true,   true,   true,   false,  true,   true,   false,  false,  false],
+            [true,  true,   true,   true,   true,   false,  true,   true,   false,  false],
+            [false, false,  true,   true,   true,   true,   true,   true,   true,   false],
+            [false, false,  false,  true,   true,   true,   true,   true,   true,   false],
+            [false, false,  false,  false,  true,   true,   true,   true,   false,  false],
+            [false, false,  false,  false,  false,  true,   true,   false,  false,  false],
+            [false, false,  false,  false,  false,  false,  false,  false,  false,  false]
+        ]
+    },
+    "dragon 2": {
+        "name": "Dragon 2",
+        "descriptors": {
+            "columns": [
+                [2], [3], [4], [1,8], [9], [1,6], [8], [3,3], [3,2], [3,1]
+            ],
+            "rows": [
+                [4], [1,1,2], [4,4], [9], [2,4,1], [1,5], [6], [7], [4], [1,1]
+            ]
+        },
+        "board": [
+            [false, false,  true,   true,   true,   true,   false,  false,  false,  false],
+            [false, false,  true,   false,  true,   false,  false,  true,   true,   false],
+            [false, true,   true,   true,   true,   false,  true,   true,   true,   true],
+            [false, true,   true,   true,   true,   true,   true,   true,   true,   true],
+            [true,  true,   false,  true,   true,   true,   true,   false,  false,  true],
+            [true,  false,  false,  true,   true,   true,   true,   true,   false,  false],
+            [false, false,  false,  true,   true,   true,   true,   true,   true,   false],
+            [false, false,  false,  true,   true,   true,   true,   true,   true,   true],
+            [false, false,  false,  true,   true,   true,   true,   false,  false,  false],
+            [false, false,  false,  true,   false,  false,  true,   false,  false,  false]
+        ]
+    },
+    "eye": {
+        "name": "Eye",
+        "descriptors": {
+            "columns": [
+                [2], [4], [3,1], [6], [7], [6], [3,1], [1,2,3], [1,3]
+            ],
+            "rows": [
+                [1], [1,1], [1,1,1,1], [6], [5,2], [2,3,1], [2,3,2], [7], [1,1,1]
+            ]
+        },
+        "board": [
+            [false, false,  false,  false,  false,  false,  false,  true,   false],
+            [false, false,  false,  false,  true,   false,  true,   false,  false],
+            [false, false,  true,   false,  true,   false,  true,   false,  true],
+            [false, false,  true,   true,   true,   true,   true,   true,   false],
+            [false, true,   true,   true,   true,   true,   false,  true,   true],
+            [true,  true,   false,  true,   true,   true,   false,  false,  true],
+            [true,  true,   false,  true,   true,   true,   false,  true,   true],
+            [false, true,   true,   true,   true,   true,   true,   true,   false],
+            [false, false,  false,  true,   false,  true,   false,  true,   false]
+        ]
+    },
+    "bicycle": {
+        "name": "Bicycle",
+        "descriptors": {
+            "columns": [
+                [2,1], [1,3], [1,5], [6,1], [1,1,1], [1,1], [1,3,1], [2,2,3], [3,5], [2]
+            ],
+            "rows": [
+                [1], [3], [3,1], [1,1], [1,1], [8], [1,2,1,2], [4,4], [2,2], [9]
+            ]
+        },
+        "board": [
+            [false, false,  false,  false,  false,  false,  false,  true,   false,  false],
+            [false, false,  false,  false,  false,  false,  true,   true,   true,   false],
+            [false, false,  true,   true,   true,   false,  false,  false,  true,   false],
+            [false, false,  false,  true,   false,  false,  false,  false,  true,   false],
+            [false, false,  false,  true,   false,  false,  false,  true,   false,  false],
+            [false, true,   true,   true,   true,   true,   true,   true,   true,   false],
+            [true,  false,  true,   true,   false,  false,  true,   false,  true,   true],
+            [true,  true,   true,   true,   false,  false,  true,   true,   true,   true],
+            [false, true,   true,   false,  false,  false,  false,  true,   true,   false],
+            [true,  true,   true,   true,   true,   true,   true,   true,   true,   false]
+        ]
+    },
+    "minotaur": {
+        "name": "Minotaur",
+        "descriptors": {
+            "columns": [
+                [2], [1,5], [4,1], [3], [1,7], [9], [5], [7], [2,5], [2,2]
+            ],
+            "rows": [
+                [1,1], [1,1], [9], [9], [7,1], [2,5], [1,6], [1,2,3], [2,2], [1,1]
+            ]
+        },
+        "board": [
+            [false, true,   false,  false,  true,   false,  false,  false,  false,  false],
+            [true,  false,  false,  false,  false,  true,   false,  false,  false,  false],
+            [true,  true,   true,   true,   true,   true,   true,   true,   true,   false],
+            [false, true,   true,   true,   true,   true,   true,   true,   true,   true],
+            [false, true,   true,   true,   true,   true,   true,   true,   false,  true],
+            [false, true,   true,   false,  true,   true,   true,   true,   true,   false],
+            [false, true,   false,  false,  true,   true,   true,   true,   true,   true],
+            [false, false,  true,   false,  true,   true,   false,  true,   true,   true],
+            [false, false,  false,  false,  true,   true,   false,  true,   true,   false],
+            [false, false,  false,  false,  false,  true,   false,  false,  true,   false]
+        ]
+    },
+    "lamp": {
+        "name": "lamp",
+        "descriptors": {
+            "columns": [
+                [2], [3,1], [2,1,1], [1,1,2], [1,3,1], [5,1], [3,1], [1]
+            ],
+            "rows": [
+                [4], [1,1], [2,3], [2,5], [1,3], [1], [1], [6]
+            ]
+        },
+        "board": [
+            [false, false,  true,   true,   true,   true,   false,  false],
+            [false, false,  true,   false,  false,  true,   false,  false],
+            [true,  true,   false,  false,  true,   true,   true,   false],
+            [true,  true,   false,  true,   true,   true,   true,   true],
+            [false, true,   false,  false,  true,   true,   true,   false],
+            [false, false,  true,   false,  false,  false,  false,  false],
+            [false, false,  false,  true,   false,  false,  false,  false],
+            [false, true,   true,   true,   true,   true,   true,   false]
+        ]
+    },
+    "film camera": {
+        "name": "Film Camera",
+        "descriptors": {
+            "columns": [
+                [2], [7], [5,1,1], [2,1,1,2], [1,3], [2,1,1,2], [5,1,1], [7], [2,1], [3]
+            ],
+            "rows": [
+                [2,2], [4,4], [4,4], [2,2], [7,1], [1,3], [7,1], [1], [3], [2,2]
+            ]
+        },
+        "board": [
+            [false, true,   true,   false,  false,  false,  true,   true,   false,  false],
+            [true,  true,   true,   true,   false,  true,   true,   true,   true,   false],
+            [true,  true,   true,   true,   false,  true,   true,   true,   true,   false],
+            [false, true,   true,   false,  false,  false,  true,   true,   false,  false],
+            [false, true,   true,   true,   true,   true,   true,   true,   false,  true],
+            [false, true,   false,  false,  false,  false,  false,  true,   true,   true],
+            [false, true,   true,   true,   true,   true,   true,   true,   false,  true],
+            [false, false,  false,  false,  true,   false,  false,  false,  false,  false],
+            [false, false,  false,  true,   true,   true,   false,  false,  false,  false],
+            [false, false,  true,   true,   false,  true,   true,   false,  false,  false]
+        ]
+    },
+    "balloon": {
+        "name": "Balloon",
+        "descriptors": {
+            "columns": [
+                [5], [1,4,1], [1,7], [9], [2,7], [5,1], [1], [1,1], [1,1], [3]
+            ],
+            "rows": [
+                [4], [1,3], [1,4], [6], [6], [6,1], [4,1,1], [2,1], [4,1], [5]
+            ]
+        },
+        "board": [
+            [false, true,   true,   true,   true,   false,  false,  false,  false,  false],
+            [true,  false,  false,  true,   true,   true,   false,  false,  false,  false],
+            [true,  false,  true,   true,   true,   true,   false,  false,  false,  false],
+            [true,  true,   true,   true,   true,   true,   false,  false,  false,  false],
+            [true,  true,   true,   true,   true,   true,   false,  false,  false,  false],
+            [true,  true,   true,   true,   true,   true,   false,  false,  true,   false],
+            [false, true,   true,   true,   true,   false,  false,  true,   false,  true],
+            [false, false,  true,   true,   false,  false,  false,  false,  false,  true],
+            [false, true,   true,   true,   true,   false,  false,  false,  false,  true],
+            [false, false,  false,  false,  true,   true,   true,   true,   true,   false]
+        ]
+    },
+    "green master": {
+        "name": "Green Master",
+        "descriptors": {
+            "columns": [
+                [1,1], [2,2], [3,5], [2,7], [6,3], [6,1], [1,1,5], [2,1], [1,1,1], [6]
+            ],
+            "rows": [
+                [3], [9], [2,2,1], [5], [3,2], [5,1], [2,4], [3,1,1], [4,1,1], [7,1]
+            ]
+        },
+        "board": [
+            [false, false,  false,  true,   true,   true,   false,  false,  false,  false],
+            [true,  true,   true,   true,   true,   true,   true,   true,   true,   false],
+            [false, true,   true,   false,  true,   true,   false,  true,   false,  false],
+            [false, false,  true,   true,   true,   true,   true,   false,  false,  false],
+            [false, false,  false,  true,   true,   true,   false,  false,  true,   true],
+            [false, false,  true,   true,   true,   true,   true,   false,  false,  true],
+            [false, false,  true,   true,   false,  false,  true,   true,   true,   true],
+            [false, false,  true,   true,   true,   false,  true,   false,  false,  true],
+            [false, true,   true,   true,   true,   false,  true,   false,  false,  true],
+            [true,  true,   true,   true,   true,   true,   true,   false,  false,  true]
+        ]
+    },
+    "bike": {
+        "name": "Bike",
+        "descriptors": {
+            "columns": [
+                [1,1], [2,1,1], [2,2], [2,1], [1,1], [5], [1,2,1], [1]
+            ],
+            "rows": [
+                [2,2], [1,1], [1,2], [1,1], [4], [2,2], [1,1,1,1], [1,1]
+            ]
+        },
+        "board": [
+            [true,  true,   false,  true,   true,   false,  false,  false],
+            [false, true,   false,  true,   false,  false,  false,  false],
+            [false, false,  true,   false,  false,  true,   true,   false],
+            [false, false,  true,   false,  false,  true,   false,  false],
+            [false, false,  false,  true,   true,   true,   true,   false],
+            [false, true,   true,   false,  false,  true,   true,   false],
+            [true,  false,  true,   false,  false,  true,   false,  true],
+            [false, true,   false,  false,  false,false,    true,   false]
+        ]
+    },
+    "goldfish": {
+        "name": "Goldfish",
+        "descriptors": {
+            "columns": [
+                [2], [4], [1,3], [7], [6], [6], [1,4], [6], [8]
+            ],
+            "rows": [
+                [3], [3,1], [5,2], [2,6], [9], [8], [2,3], [1,2], [1]
+            ]
+        },
+        "board": [
+            [false, false,  false,  false,  true,   true,   true,   false,  false],
+            [false, false,  false,  true,   true,   true,   false,  false,  true],
+            [false, true,   true,   true,   true,   true,   false,  true,   true],
+            [true,  true,   false,  true,   true,   true,   true,   true,   true],
+            [true,  true,   true,   true,   true,   true,   true,   true,   true],
+            [false, true,   true,   true,   true,   true,   true,   true,   true],
+            [false, false,  true,   true,   false,  false,  true,   true,   true],
+            [false, false,  false,  true,   false,  false,  false,  true,   true],
+            [false, false,  false,  false,  false,  false,  false,  false,  true]
+        ]
+    },
+    "fox 2": {
+        "name": "Fox",
+        "descriptors": {
+            "columns": [
+                [1,1], [4], [5], [7], [6], [4], [1,2], [5]
+            ],
+            "rows": [
+                [1,1], [4], [4,1], [5,1], [6], [6], [1,1,1], [1,1,1,1]
+            ]
+        },
+        "board": [
+            [false, true,   false,  false,  true,   false,  false,  false],
+            [false, true,   true,   true,   true,   false,  false,  false],
+            [false, true,   true,   true,   true,   false,  true,   false],
+            [true,  true,   true,   true,   true,   false,  false,  true],
+            [false, false,  true,   true,   true,   true,   true,   true],
+            [false, false,  true,   true,   true,   true,   true,   true],
+            [false, false,  false,  true,   false,  true,   false,  true],
+            [true,  false,  false,  true,   false,  true,   false,  true]
+        ]
+    },
+    "bulldog": {
+        "name": "Bulldog",
+        "descriptors": {
+            "columns": [
+                [1,2], [9], [5,2], [6,1], [6,1], [9], [1,5], [6], [4], [7]
+            ],
+            "rows": [
+                [1,1], [5], [6], [6,1], [7,1], [9], [1,7], [2,5], [9], [1,1,1,1]
+            ]
+        },
+        "board": [
+            [true,  false,  false,  false,  false,  false,  true,   false,  false,  false],
+            [false, true,   true,   true,   true,   true,   false,  false,  false,  false],
+            [true,  true,   true,   true,   true,   true,   false,  false,  false,  false],
+            [true,  true,   true,   true,   true,   true,   false,  false,  false,  true],
+            [false, true,   true,   true,   true,   true,   true,   true,   false,  true],
+            [false, true,   true,   true,   true,   true,   true,   true,   true,   true],
+            [false, true,   false,  true,   true,   true,   true,   true,   true,   true],
+            [false, true,   true,   false,  false,  true,   true,   true,   true,   true],
+            [false, true,   true,   true,   true,   true,   true,   true,   true,   true],
+            [false, true,   false,  false,  false,  true,   false,  true,   false,  true]
+        ]
+    },
+    "tortoise": {
+        "name": "Tortoise",
+        "descriptors": {
+            "columns": [
+                [7], [8], [6], [6], [8], [7], [3], [7], [7], [3,1]
+            ],
+            "rows": [
+                [2], [3], [4,3], [6,2], [6,3], [9], [9], [8], [2,2], [2,2]
+            ]
+        },
+        "board": [
+            [false, false,  false,  false,  false,  false,  false,  false,  true,   true],
+            [false, false,  false,  false,  false,  false,  false,  true,   true,   true],
+            [false, true,   true,   true,   true,   false,  false,  true,   true,   true],
+            [true,  true,   true,   true,   true,   true,   false,  true,   true,   false],
+            [true,  true,   true,   true,   true,   true,   false,  true,   true,   true],
+            [true,  true,   true,   true,   true,   true,   true,   true,   true,   false],
+            [true,  true,   true,   true,   true,   true,   true,   true,   true,   false],
+            [true,  true,   true,   true,   true,   true,   true,   true,   false,  false],
+            [true,  true,   false,  false,  true,   true,   false,  false,  false,  false],
+            [true,  true,   false,  false,  true,   true,   false,  false,  false,  false]
+        ]
+    },
+    "kangaroo": {
+        "name": "kangaroo",
+        "descriptors": {
+            "columns": [
+                [2], [2], [5], [4], [4], [5,1], [8], [6], [2,1], [5]
+            ],
+            "rows": [
+                [1], [3], [3,4], [6], [7], [7], [1,3,1], [2,1], [1,1], [2,2]
+            ]
+        },
+        "board": [
+            [false, false,  true,   false,  false,  false,  false,  false,  false,  false],
+            [true,  true,   true,   false,  false,  false,  false,  false,  false,  false],
+            [true,  true,   true,   false,  true,   true,   true,   true,   false,  false],
+            [false, false,  true,   true,   true,   true,   true,   true,   false,  false],
+            [false, false,  true,   true,   true,   true,   true,   true,   true,   false],
+            [false, false,  false,  true,   true,   true,   true,   true,   true,   true],
+            [false, false,  false,  true,   false,  true,   true,   true,   false,  true],
+            [false, false,  false,  false,  false,  false,  true,   true,   false,  true],
+            [false, false,  false,  false,  false,  false,  true,   false,  false,  true],
+            [false, false,  false,  false,  false,  true,   true,   false,  true,   true]
+        ]
+    },
+    "chicken drumstick": {
+        "name": "Chicken Drumstick",
+        "descriptors": {
+            "columns": [
+                [2], [4], [2,2], [6], [6], [5], [3], [5], [5], [3]
+            ],
+            "rows": [
+                [2], [3], [3], [4], [6], [5], [5], [2,3], [6], [4]
+            ]
+        },
+        "board": [
+            [false, false,  false,  false,  false,  false,  false,  true,   true,   false],
+            [false, false,  false,  false,  false,  false,  false,  true,   true,   true],
+            [false, false,  false,  false,  false,  false,  false,  true,   true,   true],
+            [false, false,  false,  false,  false,  false,  true,   true,   true,   true],
+            [false, false,  false,  true,   true,   true,   true,   true,   true,   false],
+            [false, false,  true,   true,   true,   true,   true,   false,  false,  false],
+            [false, true,   true,   true,   true,   true,   false,  false,  false,  false],
+            [true,  true,   false,  true,   true,   true,   false,  false,  false,  false],
+            [true,  true,   true,   true,   true,   true,   false,  false,  false,  false],
+            [false, true,   true,   true,   true,   false,  false,  false,  false,  false]
+        ]
+    },
+    "torch": {
+        "name": "Torch",
+        "descriptors": {
+            "columns": [
+                [6], [7], [3,3], [3,4], [8], [7], [7], [5], [1,3], [4]
+            ],
+            "rows": [
+                [5], [5], [6], [2,3], [2,4], [9], [7,1], [8], [5], [4]
+            ]
+        },
+        "board": [
+            [true,  true,   true,   true,   true,   false,  false,  false,  false,  false],
+            [true,  true,   true,   true,   true,   false,  false,  false,  false,  false],
+            [true,  true,   true,   true,   true,   true,   false,  false,  false,  false],
+            [true,  true,   false,  false,  true,   true,   true,   false,  false,  false],
+            [true,  true,   false,  true,   true,   true,   true,   false,  false,  false],
+            [true,  true,   true,   true,   true,   true,   true,   true,   true,   false],
+            [false, true,   true,   true,   true,   true,   true,   true,   false,  true],
+            [false, false,  true,   true,   true,   true,   true,   true,   true,   true],
+            [false, false,  false,  false,  false,  true,   true,   true,   true,   true],
+            [false, false,  false,  false,  false,  false,  true,   true,   true,   true]
+        ]
+    },
+    "baby elephant": {
+        "name": "Baby Elephant",
+        "descriptors": {
+            "columns": [
+                [4], [4], [1,3], [2], [2,2], [1,1], [4]
+            ],
+            "rows": [
+                [1], [1,1], [2,1,1], [2,1,1], [5,1], [3,2], [1,1]
+            ]
+        },
+        "board": [
+            [false, false,  false,  false,  false,  true,   false],
+            [false, false,  false,  false,  true,   false,  true],
+            [false, true,   true,   false,  true,   false,  true],
+            [true,  true,   false,  true,   false,  false,  true],
+            [true,  true,   true,   true,   true,   false,  true],
+            [true,  true,   true,   false,  true,   true,   false],
+            [true,  false,  true,   false,  false,  false,  false]
+        ]
+    },
+    "cherries": {
+        "name": "Cherries",
+        "descriptors": {
+            "columns": [
+                [1,3], [3,4], [2,2], [1,2,1], [2,1,3], [3,2,2], [3,1], [2,1,3], [7], [1,3]
+            ],
+            "rows": [
+                [4], [2,4], [2,3], [3,1], [7], [1,1], [4,3], [3,2,3], [2,2,3], [2,1]
+            ]
+        },
+        "board": [
+            [false, false,  false,  true,   true,   true,   true,   false,  false,  false],
+            [true,  true,   false,  false,  true,   true,   true,   true,   false,  false],
+            [false, true,   true,   false,  false,  true,   true,   true,   false,  false],
+            [false, true,   true,   true,   false,  false,  false,  false,  true,   false],
+            [false, false,  false,  true,   true,   true,   true,   true,   true,   true],
+            [false, false,  false,  false,  false,  true,   false,  false,  true,   false],
+            [false, true,   true,   true,   true,   false,  false,  true,   true,   true],
+            [true,  true,   true,   false,  true,   true,   false,  true,   true,   true],
+            [true,  true,   false,  false,  true,   true,   false,  true,   true,   true],
+            [true,  true,   false,  false,  false,  false,  false,  false,  true,   false]
+        ]
+    },
+    "parrot": {
+        "name": "Parrot",
+        "descriptors": {
+            "columns": [
+                [0], [2], [6], [10], [8], [10], [6], [6], [4], [2]
+            ],
+            "rows": [
+                [4], [5], [5], [5], [6], [6], [6], [6], [1,5], [1,1,3]
+            ]
+        },
+        "board": [
+            [false, false,  true,   true,   true,   true,   false,  false,  false,  false],
+            [false, true,   true,   true,   true,   true,   false,  false,  false,  false],
+            [false, true,   true,   true,   true,   true,   false,  false,  false,  false],
+            [false, false,  true,   true,   true,   true,   true,   false,  false,  false],
+            [false, false,  true,   true,   true,   true,   true,   true,   false,  false],
+            [false, false,  true,   true,   true,   true,   true,   true,   false,  false],
+            [false, false,  false,  true,   true,   true,   true,   true,   true,   false],
+            [false, false,  false,  true,   true,   true,   true,   true,   true,   false],
+            [false, false,  false,  true,   false,  true,   true,   true,   true,   true],
+            [false, false,  false,  true,   false,  true,   false,  true,   true,   true]
+        ]
+    },
+    "merman": {
+        "name": "Merman",
+        "descriptors": {
+            "columns": [
+                [5], [6], [8], [8], [1,3], [2,3], [1,1,2], [3], [1]
+            ],
+            "rows": [
+                [1,2], [4], [4,2], [6], [4,1,1], [3,1], [7], [6], [2]
+            ]
+        },
+        "board": [
+            [true,  false,  true,   true,   false,  false,  false,  false,  false],
+            [true,  true,   true,   true,   false,  false,  false,  false,  false],
+            [true,  true,   true,   true,   false,  true,   true,   false,  false],
+            [true,  true,   true,   true,   true,   true,   false,  false,  false],
+            [true,  true,   true,   true,   false,  false,  true,   false,  true],
+            [false, true,   true,   true,   false,  false,  false,  true,   false],
+            [false, true,   true,   true,   true,   true,   true,   true,   false],
+            [false, false,  true,   true,   true,   true,   true,   true,   false],
+            [false, false,  false,  false,  true,   true,   false,  false,  false]
+
+        ]
+    },
+    "globe": {
+        "name": "Globe",
+        "descriptors": {
+            "columns": [
+                [1], [3,2], [8], [7,1], [7,1], [7,1], [6,1], [1,3,1], [1,2], [6]
+            ],
+            "rows": [
+                [1], [4,1], [5,1], [7,1], [7,1], [7,1], [5,1], [4,2], [2,3], [6]
+            ]
+        },
+        "board": [
+            [false, false,  false,  false,  false,  false,  false,  true,   false,  false],
+            [false, false,  false,  true,   true,   true,   true,   false,  true,   false],
+            [false, false,  true,   true,   true,   true,   true,   false,  false,  true],
+            [false, true,   true,   true,   true,   true,   true,   true,   false,  true],
+            [false, true,   true,   true,   true,   true,   true,   true,   false,  true],
+            [false, true,   true,   true,   true,   true,   true,   true,   false,  true],
+            [false, false,  true,   true,   true,   true,   true,   false,  false,  true],
+            [false, false,  true,   true,   true,   true,   false,  false,  true,   true],
+            [false, true,   true,   false,  false,  false,  true,   true,   true,   false],
+            [true,  true,   true,   true,   true,   true,   false,  false,  false,  false]
+        ]
+    },
+    "cyclops": {
+        "name": "Cyclops",
+        "descriptors": {
+            "columns": [
+                [2], [2,1], [5,3], [3,2,3], [2,1,5], [3,2,3], [5,3], [2,2,4], [4,3], [7]
+            ],
+            "rows": [
+                [3,3], [8], [2,2,2], [2,1,4], [3,3,1], [5,2], [1,3], [7], [8], [1,6]
+            ]
+        },
+        "board": [
+            [false, false,  false,  true,   true,   true,   false,  true,   true,   true],
+            [false, false,  true,   true,   true,   true,   true,   true,   true,   true],
+            [false, false,  true,   true,   false,  true,   true,   false,  true,   true],
+            [false, true,   true,   false,  true,   false,  true,   true,   true,   true],
+            [false, true,   true,   true,   false,  true,   true,   true,   false,  true],
+            [false, false,  true,   true,   true,   true,   true,   false,  true,   true],
+            [false, false,  false,  false,  true,   false,  false,  true,   true,   true],
+            [false, false,  true,   true,   true,   true,   true,   true,   true,   false],
+            [true,  true,   true,   true,   true,   true,   true,   true,   false,  false],
+            [true,  false,  true,   true,   true,   true,   true,   true,   false,  false]
+        ]
+    },
+    "moose": {
+        "name": "Moose",
+        "descriptors": {
+            "columns": [
+                [1], [2,1], [2,1], [4,3], [8], [5], [9], [2,3], [4,1], [3,1]
+            ],
+            "rows": [
+                [1,2], [2,1,1,2], [4,4], [3,3], [1,1], [5], [9], [5], [3], [3]
+            ]
+        },
+        "board": [
+            [false, false,  false,  true,   false,  false,  false,  false,  true,   true],
+            [true,  true,   false,  true,   false,  false,  true,   false,  true,   true],
+            [false, true,   true,   true,   true,   false,  true,   true,   true,   true],
+            [false, false,  true,   true,   true,   false,  true,   true,   true,   false],
+            [false, false,  false,  false,  true,   false,  true,   false,  false,  false],
+            [false, false,  false,  true,   true,   true,   true,   true,   false,  false],
+            [false, true,   true,   true,   true,   true,   true,   true,   true,   true],
+            [false, false,  false,  true,   true,   true,   true,   true,   false,  false],
+            [false, false,  false,  false,  true,   true,   true,   false,  false,  false],
+            [false, false,  false,  false,  true,   true,   true,   false,  false,  false]
+        ]
+    },
+    "speedy hedgehog": {
+        "name": "Speedy Hedgehog",
+        "descriptors": {
+            "columns": [
+                [1,1,2], [1,1], [1,1,1,1], [4,4], [8], [8,1], [7,1], [6,2], [3,1], [1,1]
+            ],
+            "rows": [
+                [5], [7], [1,6], [8], [1,4], [5], [6,2], [1,3,1], [1,1,1], [2,2]
+            ]
+        },
+        "board": [
+            [false, false,  false,  true,   true,   true,   true,   true,   false,  false],
+            [false, false,  true,   true,   true,   true,   true,   true,   true,   false],
+            [true,  false,  false,  true,   true,   true,   true,   true,   true,   false],
+            [false, false,  true,   true,   true,   true,   true,   true,   true,   true],
+            [true,  false,  false,  false,  true,   true,   true,   true,   false,  false],
+            [false, false,  false,  true,   true,   true,   true,   true,   false,  false],
+            [false, true,   true,   true,   true,   true,   true,   false,  true,   true],
+            [true,  false,  false,  true,   true,   true,   false,  true,   false,  false],
+            [true,  false,  false,  true,   false,  false,  false,  true,   false,  false],
+            [false, true,   true,   false,  false,  true,   true,   false,  false,  false]
+        ]
+    },
+    "owl": {
+        "name": "Owl",
+        "descriptors": {
+            "columns": [
+                [5], [8,1], [3,5], [1,3,1], [6,1], [2,5], [2,3,1], [8,1], [4,1], [4]
+            ],
+            "rows": [
+                [1,1], [2,2], [7], [2,2,1,1], [2,1,3], [10], [10], [9], [1,1,1], [8]
+            ]
+        },
+        "board": [
+            [false, true,   false,  false,  false,  false,  false,  true,   false,  false],
+            [false, true,   true,   false,  false,  false,  true,   true,   false,  false],
+            [false, true,   true,   true,   true,   true,   true,   true,   false,  false],
+            [false, true,   true,   false,  true,   true,   false,  true,   false,  true],
+            [true,  true,   false,  false,  true,   false,  false,  true,   true,   true],
+            [true,  true,   true,   true,   true,   true,   true,   true,   true,   true],
+            [true,  true,   true,   true,   true,   true,   true,   true,   true,   true],
+            [true,  true,   true,   true,   true,   true,   true,   true,   true,   false],
+            [true,  false,  true,   false,  false,  true,   false,  false,  false,  false],
+            [false, true,   true,   true,   true,   true,   true,   true,   true,   false]
+        ]
+    },
+    "hero ram": {
+        "name": "Hero Ram",
+        "descriptors": {
+            "columns": [
+                [5], [7], [3,1], [3,4,1], [2,2,1], [2,4,1], [2,3,1], [8,1], [4,1], [1,1]
+            ],
+            "rows": [
+                [5], [7], [3,2], [3,3], [2,6], [2,5,1], [2,1,1,1], [2,1,1,1], [1,1], [7]
+            ]
+        },
+        "board": [
+            [false, false,  false,  true,   true,   true,   true,   true,   false,  false],
+            [false, false,  true,   true,   true,   true,   true,   true,   true,   false],
+            [false, true,   true,   true,   false,  false,  false,  true,   true,   false],
+            [true,  true,   true,   false,  false,  false,  true,   true,   true,   false],
+            [true,  true,   false,  true,   true,   true,   true,   true,   true,   false],
+            [true,  true,   false,  true,   true,   true,   true,   true,   false,  true],
+            [true,  true,   false,  true,   false,  true,   false,  true,   false,  false],
+            [true,  true,   false,  true,   false,  true,   false,  true,   false,  false],
+            [false, true,   false,  false,  false,  false,  false,  false,  false,  true],
+            [false, false,  true,   true,   true,   true,   true,   true,   true,   false]
+        ]
+    },
+    "rocket launch": {
+        "name": "Rocket Launch",
+        "descriptors": {
+            "columns": [
+                [10], [1,1,1,1,1], [10], [1,1,1], [1,1,3], [8], [10], [8], [3], [1]
+            ],
+            "rows": [
+                [3,1], [1,1,3], [8], [1,1,3], [8], [1,1,3], [3,3], [1,1,5], [3,5], [1,3,1,2]
+            ]
+        },
+        "board": [
+            [true,  true,   true,   false,  false,  false,  true,   false,  false,  false],
+            [true,  false,  true,   false,  false,  true,   true,   true,   false,  false],
+            [true,  true,   true,   true,   true,   true,   true,   true,   false,  false],
+            [true,  false,  true,   false,  false,  true,   true,   true,   false,  false],
+            [true,  true,   true,   true,   true,   true,   true,   true,   false,  false],
+            [true,  false,  true,   false,  false,  true,   true,   true,   false,  false],
+            [true,  true,   true,   false,  false,  true,   true,   true,   false,  false],
+            [true,  false,  true,   false,  true,   true,   true,   true,   true,   false],
+            [true,  true,   true,   false,  true,   true,   true,   true,   true,   false],
+            [true,  false,  true,   true,   true,   false,  true,   false,  true,   true]
+        ]
+    },
+    "noodles": {
+        "name": "Noodles",
+        "descriptors": {
+            "columns": [
+                [1], [1,1,4], [10], [1,2], [10], [1,2], [10], [1,1,4], [1,1,4], [1,1,1]
+            ],
+            "rows": [
+                [9], [1,1,1], [2,1,4], [1,1,1], [1,1,1], [1,1,1], [2,1,3], [3,1,4], [8], [8]
+            ]
+        },
+        "board": [
+            [false, true,   true,   true,   true,   true,   true,   true,   true,   true],
+            [false, false,  true,   false,  true,   false,  true,   false,  false,  false],
+            [false, true,   true,   false,  true,   false,  true,   true,   true,   true],
+            [false, false,  true,   false,  true,   false,  true,   false,  false,  false],
+            [false, false,  true,   false,  true,   false,  true,   false,  false,  false],
+            [false, false,  true,   false,  true,   false,  true,   false,  false,  false],
+            [false, true,   true,   false,  true,   false,  true,   true,   true,   false],
+            [true,  true,   true,   false,  true,   false,  true,   true,   true,   true],
+            [false, true,   true,   true,   true,   true,   true,   true,   true,   false],
+            [false, true,   true,   true,   true,   true,   true,   true,   true,   false]
+        ]
+    },
+    "baby penguin": {
+        "name": "Baby Penguin",
+        "descriptors": {
+            "columns": [
+                [3], [8], [1,1,3], [1,2,2], [1,2,1], [1,1,1], [1,1,2], [2,2], [8], [4]
+            ],
+            "rows": [
+                [6], [1,2], [2,1,1], [1,3,1], [2,2,2], [2,2], [2,2], [2,2], [8], [2,2]
+            ]
+        },
+        "board": [
+            [false, false,  true,   true,   true,   true,   true,   true,   false,  false],
+            [false, true,   false,  false,  false,  false,  false,  true,   true,   false],
+            [false, true,   true,   false,  false,  false,  true,   false,  true,   false],
+            [false, true,   false,  true,   true,   true,   false,  false,  true,   false],
+            [true,  true,   false,  true,   true,   false,  false,  false,  true,   true],
+            [true,  true,   false,  false,  false,  false,  false,  false,  true,   true],
+            [true,  true,   false,  false,  false,  false,  false,  false,  true,   true],
+            [false, true,   true,   false,  false,  false,  false,  false,  true,   true],
+            [false, true,   true,   true,   true,   true,   true,   true,   true,   false],
+            [false, false,  true,   true,   false,  false,  true,   true,   false,  false]
+        ]
+    },
+    "giant nose": {
+        "name": "Giant Nose",
+        "descriptors": {
+            "columns": [
+                [2,2], [9], [10], [7,2], [7,2], [10], [1,3,1], [1,4], [1,5], [4]
+            ],
+            "rows": [
+                [4], [5,1], [7], [5], [8], [10], [10], [2,1,3], [6,2], [7]
+            ]
+        },
+        "board": [
+            [false, false,  true,   true,   true,   true,   false,  false,  false,  false],
+            [false, true,   true,   true,   true,   true,   false,  false,  true,   false],
+            [false, true,   true,   true,   true,   true,   true,   true,   false,  false],
+            [false, true,   true,   true,   true,   true,   false,  false,  false,  false],
+            [false, true,   true,   true,   true,   true,   true,   true,   true,   false],
+            [true,  true,   true,   true,   true,   true,   true,   true,   true,   true],
+            [true,  true,   true,   true,   true,   true,   true,   true,   true,   true],
+            [false, true,   true,   false,  false,  true,   false,  true,   true,   true],
+            [true,  true,   true,   true,   true,   true,   false,  false,  true,   true],
+            [true,  true,   true,   true,   true,   true,   true,   false,  false,  false]
+        ]
+    },
+    "eccentric": {
+        "name": "Eccentric",
+        "descriptors": {
+            "columns": [
+                [4], [2,1], [4], [6], [9], [1,5], [1,3,4], [1,1], [1,2,2], [1,4]
+            ],
+            "rows": [
+                [6], [1], [1,3], [1,5], [1,4,2], [2,3,1], [6,1], [3,1,2], [3,1,1], [3,1]
+            ]
+        },
+        "board": [
+            [false, false,  false,  false,  true,   true,   true,   true,   true,   true],
+            [false, false,  false,  false,  true,   false,  false,  false,  false,  false],
+            [true,  false,  false,  false,  true,   true,   true,   false,  false,  false],
+            [true,  false,  false,  false,  true,   true,   true,   true,   true,   false],
+            [true,  false,  false,  true,   true,   true,   true,   false,  true,   true],
+            [true,  true,   false,  true,   true,   true,   false,  false,  false,  true],
+            [false, true,   true,   true,   true,   true,   true,   false,  false,  true],
+            [false, false,  true,   true,   true,   false,  true,   false,  true,   true],
+            [false, false,  true,   true,   true,   false,  true,   false,  true,   false],
+            [false, true,   true,   true,   false,  false,  true,   false,  false,  false]
+        ]
+    },
+    "armored hero": {
+        "name": "Armored Hero",
+        "descriptors": {
+            "columns": [
+                [1,1], [2,3], [1,1], [2], [2,1,4], [9], [2], [1,1], [2,3], [1,1]
+            ],
+            "rows": [
+                [2], [2], [1], [8], [1,1,2,1], [2], [3,2,3], [1,2,1], [1,2,1], [1,1]
+            ]
+        },
+        "board": [
+            [false, false,  false,  false,  true,   true,   false,  false,  false,  false],
+            [false, false,  false,  false,  true,   true,   false,  false,  false,  false],
+            [false, false,  false,  false,  false,  true,   false,  false,  false,  false],
+            [false, true,   true,   true,   true,   true,   true,   true,   true,   false],
+            [false, true,   false,  true,   false,  true,   true,   false,  true,   false],
+            [false, false,  false,  false,  true,   true,   false,  false,  false,  false],
+            [true,  true,   true,   false,  true,   true,   false,  true,   true,   true],
+            [false, true,   false,  false,  true,   true,   false,  false,  true,   false],
+            [false, true,   false,  false,  true,   true,   false,  false,  true,   false],
+            [true,  false,  false,  false,  false,  false,  false,  false,  false,  true]
+        ]
+    },
+    "tire swing": {
+        "name": "Tire Swing",
+        "descriptors": {
+            "columns": [
+                [4,5], [9], [1,3], [1,2], [1,2], [1,3,1], [6,1,1], [1,3,1], [1,1], [1]
+            ],
+            "rows": [
+                [1,4], [5,1], [2,1], [2,1], [1,1], [2,3], [2,1,1], [3,3], [5], [10]
+            ]
+        },
+        "board": [
+            [true,  false,  false,  false,  false,  true,   true,   true,   true,   false],
+            [true,  true,   true,   true,   true,   false,  true,   false,  false,  false],
+            [true,  true,   false,  false,  false,  false,  true,   false,  false,  false],
+            [true,  true,   false,  false,  false,  false,  true,   false,  false,  false],
+            [false, true,   false,  false,  false,  false,  true,   false,  false,  false],
+            [true,  true,   false,  false,  false,  true,   true,   true,   false,  false],
+            [true,  true,   false,  false,  false,  true,   false,  true,   false,  false],
+            [true,  true,   true,   false,  false,  true,   true,   true,   false,  false],
+            [true,  true,   true,   true,   true,   false,  false,  false,  false,  false],
+            [true,  true,   true,   true,   true,   true,   true,   true,   true,   true]
+        ]
+    },
+    "chinese character": {
+        "name": "Chinese Character",
+        "descriptors": {
+            "columns": [
+                [1,7], [1,1,1], [1,7], [1,1,1,1,1], [3,1,1,1], [1,1,1,1,1], [1,7], [1,1,1], [1,7]
+            ],
+            "rows": [
+                [9], [1], [9], [1,1,1,1], [1,5,1], [1,1,1,1], [1,5,1], [1,1,1,1], [9]
+            ]
+        },
+        "board": [
+            [true,  true,   true,   true,   true,   true,   true,   true,   true],
+            [false, false,  false,  false,  true,   false,  false,  false,  false],
+            [true,  true,   true,   true,   true,   true,   true,   true,   true],
+            [true,  false,  true,   false,  false,  false,  true,   false,  true],
+            [true,  false,  true,   true,   true,   true,   true,   false,  true],
+            [true,  false,  true,   false,  false,  false,  true,   false,  true],
+            [true,  false,  true,   true,   true,   true,   true,   false,  true],
+            [true,  false,  true,   false,  false,  false,  true,   false,  true],
+            [true,  true,   true,   true,   true,   true,   true,   true,   true]
+        ]
+    },
+    "martian": {
+        "name": "Martian",
+        "descriptors": {
+            "columns": [
+                [1], [3,1], [1,2], [1,1,3], [8], [1,1,3], [1,1], [3,1], [3]
+            ],
+            "rows": [
+                [0], [1], [1,3,1], [2,1,2], [1,3,2], [1,1], [3,1], [1,6], [5]
+            ]
+        },
+        "board": [
+            [false, false,  false,  false,  false,  false,  false,  false,  false],
+            [false, false,  false,  false,  true,   false,  false,  false,  false],
+            [false, true,   false,  true,   true,   true,   false,  true,   false],
+            [false, true,   true,   false,  true,   false,  true,   true,   false],
+            [false, true,   false,  true,   true,   true,   false,  true,   true],
+            [false, false,  false,  false,  true,   false,  false,  false,  true],
+            [false, false,  false,  true,   true,   true,   false,  false,  true],
+            [true,  false,  true,   true,   true,   true,   true,   true,   false],
+            [false, true,   true,   true,   true,   true,   false,  false,  false]
+        ]
+    },
+    "pagoda": {
+        "name": "Pagoda",
+        "descriptors": {
+            "columns": [
+                [3], [2,2], [7], [4,2], [2,3,1], [6,1], [4,2], [7], [2,2], [3,1]
+            ],
+            "rows": [
+                [2], [1,2,1], [1,1,2,1], [10], [8], [6], [1,1], [1,1], [3,3], [9]
+            ]
+        },
+        "board": [
+            [false, false,  false,  false,  true,   true,   false,  false,  false,  false],
+            [true,  false,  false,  false,  true,   true,   false,  false,  false,  true],
+            [true,  false,  false,  true,   false,  true,   true,   false,  false,  true],
+            [true,  true,   true,   true,   true,   true,   true,   true,   true,   true],
+            [false, true,   true,   true,   true,   true,   true,   true,   true,   false],
+            [false, false,  true,   true,   true,   true,   true,   true,   false,  false],
+            [false, false,  true,   false,  false,  false,  false,  true,   false,  false],
+            [false, false,  true,   false,  false,  false,  false,  true,   false,  false],
+            [false, true,   true,   true,   false,  false,  true,   true,   true,   false],
+            [false, true,   true,   true,   true,   true,   true,   true,   true,   true]
+        ]
+    },
+    "mountain": {
+        "name": "Mountain",
+        "descriptors": {
+            "columns": [
+                [9], [6,3], [4,3], [2,5], [5], [1,6], [2,2,3], [4,2,2], [5,1,1], [8]
+            ],
+            "rows": [
+                [4,5], [4,4], [3,3], [3,3], [2,2,2], [2,5,1], [1,3,3], [7,1], [8], [8]
+            ]
+        },
+        "board": [
+            [true,  true,   true,   true,   false,  true,   true,   true,   true,   true],
+            [true,  true,   true,   true,   false,  false,  true,   true,   true,   true],
+            [true,  true,   true,   false,  false,  false,  false,  true,   true,   true],
+            [true,  true,   true,   false,  false,  false,  false,  true,   true,   true],
+            [true,  true,   false,  false,  false,  true,   true,   false,  true,   true],
+            [true,  true,   false,  true,   true,   true,   true,   true,   false,  true],
+            [true,  false,  false,  true,   true,   true,   false,  true,   true,   true],
+            [true,  true,   true,   true,   true,   true,   true,   false,  false,  true],
+            [true,  true,   true,   true,   true,   true,   true,   true,   false,  false],
+            [false, true,   true,   true,   true,   true,   true,   true,   true,   false]
+        ]
+    },
+    "green hero": {
+        "name": "Green Hero",
+        "descriptors": {
+            "columns": [
+                [3], [1,1], [3], [3], [1], [3,1], [1,1,6], [5,2], [6], [1]
+            ],
+            "rows": [
+                [3], [1,1], [3], [4,1], [1,8], [4,1,1], [3], [3], [1,1], [1,1]
+            ]
+        },
+        "board": [
+            [false, false,  false,  false,  false,  true,   true,   true,   false,  false],
+            [false, false,  false,  false,  false,  true,   false,  true,   false,  false],
+            [false, false,  false,  false,  false,  true,   true,   true,   false,  false],
+            [true,  true,   true,   true,   false,  false,  false,  true,   false,  false],
+            [true,  false,  true,   true,   true,   true,   true,   true,   true,   true],
+            [true,  true,   true,   true,   false,  false,  true,   false,  true,   false],
+            [false, false,  false,  false,  false,  false,  true,   true,   true,   false],
+            [false, false,  false,  false,  false,  false,  true,   true,   true,   false],
+            [false, false,  false,  false,  false,  false,  true,   false,  true,   false],
+            [false, false,  false,  false,  false,  false,  true,   false,  true,   false]
+        ]
+    },
+    "charlie": {
+        "name": "Charlie",
+        "descriptors": {
+            "columns": [
+                [2], [3], [8], [5,4], [10], [10], [5,4], [8], [3], [2]
+            ],
+            "rows": [
+                [4], [6], [6], [1,6,1], [10], [2,2,2], [8], [6], [6], [4]
+            ]
+        },
+        "board": [
+            [false, false,  false,  true,   true,   true,   true,   false,  false,  false],
+            [false, false,  true,   true,   true,   true,   true,   true,   false,  false],
+            [false, false,  true,   true,   true,   true,   true,   true,   false,  false],
+            [true,  false,  true,   true,   true,   true,   true,   true,   false,  true],
+            [true,  true,   true,   true,   true,   true,   true,   true,   true,   true],
+            [false, true,   true,   false,  true,   true,   false,  true,   true,   false],
+            [false, true,   true,   true,   true,   true,   true,   true,   true,   false],
+            [false, false,  true,   true,   true,   true,   true,   true,   false,  false],
+            [false, false,  true,   true,   true,   true,   true,   true,   false,  false],
+            [false, false,  false,  true,   true,   true,   true,   false,  false,  false]
+        ]
+    },
+    "text message": {
+        "name": "Text Message",
+        "descriptors": {
+            "columns": [
+                [5], [2,2], [1,1,1,1], [1,3], [1,1,2], [1,2], [1,1,1], [2,2], [5]
+            ],
+            "rows": [
+                [7], [2,2], [1,1], [1,1,1,1,1], [1,1], [2,2], [3,3], [3], [3]
+            ]
+        },
+        "board": [
+            [false, true,   true,   true,   true,   true,   true,   true,   false],
+            [true,  true,   false,  false,  false,  false,  false,  true,   true],
+            [true,  false,  false,  false,  false,  false,  false,  false,  true],
+            [true,  false,  true,   false,  true,   false,  true,   false,  true],
+            [true,  false,  false,  false,  false,  false,  false,  false,  true],
+            [true,  true,   false,  false,  false,  false,  false,  true,   true],
+            [false, true,   true,   true,   false,  true,   true,   true,   false],
+            [false, false,  false,  true,   true,   true,   false,  false,  false],
+            [false, false,  true,   true,   true,   false,  false,  false,  false]
+        ]
+    },
+    "folk dancer": {
+        "name": "Folk Dancer",
+        "descriptors": {
+            "columns": [
+                [6], [1,3,1], [1,4], [1,3], [9], [10], [1,1,3], [1,4], [1,3], [6]
+            ],
+            "rows": [
+                [3], [2], [10], [1,2,1], [2,2,2], [10], [10], [1,6,1], [1,2,1], [1,1]
+            ]
+        },
+        "board": [
+            [false, false,  false,  false,  true,   true,   true,   false,  false,  false],
+            [false, false,  false,  false,  true,   true,   false,  false,  false,  false],
+            [true,  true,   true,   true,   true,   true,   true,   true,   true,   true],
+            [true,  false,  false,  false,  true,   true,   false,  false,  false,  true],
+            [true,  true,   false,  false,  true,   true,   false,  false,  true,   true],
+            [true,  true,   true,   true,   true,   true,   true,   true,   true,   true],
+            [true,  true,   true,   true,   true,   true,   true,   true,   true,   true],
+            [true,  false,  true,   true,   true,   true,   true,   true,   false,  true],
+            [false, false,  true,   false,  true,   true,   false,  true,   false,  false],
+            [false, true,   false,  false,  false,  true,   false,  false,  false,  false]
+        ]
+    }
+}

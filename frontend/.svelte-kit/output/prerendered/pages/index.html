@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="./favicon.png" />
+		<meta name="viewport" content="width=device-width" />
+		
+		<link href="./_app/immutable/assets/0.c2bb8d17.css" rel="stylesheet">
+		<link href="./_app/immutable/assets/2.06289e8f.css" rel="stylesheet">
+		<link rel="modulepreload" href="./_app/immutable/entry/start.668abe8e.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/scheduler.3710c472.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/singletons.1acb1e79.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/paths.6b98bd4d.js">
+		<link rel="modulepreload" href="./_app/immutable/entry/app.d1e12752.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/index.d77e5ae1.js">
+		<link rel="modulepreload" href="./_app/immutable/nodes/0.d1a85f16.js">
+		<link rel="modulepreload" href="./_app/immutable/nodes/2.d36550e5.js"><title>Nonogram Editor</title><!-- HEAD_svelte-6iyx7p_START --><!-- HEAD_svelte-6iyx7p_END -->
+	</head>
+	<body>
+		<div>   <div class="app-container svelte-1d5q74c"><header class="svelte-1d5q74c" data-svelte-h="svelte-129wqqj"><h1 class="svelte-1d5q74c">Nonogram SPA Editor</h1></header> <main class="svelte-1d5q74c"> <div class="status-bar svelte-12xk65x"><div class="status-message svelte-12xk65x"><div class="current-nonogram">No nonogram loaded</div></div> <div class="mode-selector svelte-12xk65x"><div class="mode-label svelte-12xk65x" data-svelte-h="svelte-8qisys">Mode:</div> <div class="mode-buttons svelte-12xk65x"><button disabled class="svelte-12xk65x">Play</button> <button disabled class="svelte-12xk65x">Edit</button> <button class="svelte-12xk65x" data-svelte-h="svelte-k5o5tv">Create</button></div></div> </div>  <div class="controls-bar svelte-1d5q74c"><div class="selector-container svelte-1x70pkp"><div class="selector-row svelte-1x70pkp"><label for="nonogram-select" class="svelte-1x70pkp" data-svelte-h="svelte-dn6dk6">Load:</label> <select id="nonogram-select" disabled class="svelte-1x70pkp"><option value="" data-svelte-h="svelte-1ou2syi">No nonograms available</option></select> <button disabled class="svelte-1x70pkp">Load Selected</button></div> <div class="selector-row svelte-1x70pkp"><label for="search-input" class="svelte-1x70pkp" data-svelte-h="svelte-1flsu2w">Search by Clues:</label> <input id="search-input" type="text" placeholder="Enter clue (e.g., '1,2,3' or '1 2 3')"  class="svelte-1x70pkp" value=""></div>  <div class="selector-row svelte-1x70pkp"><button class="svelte-1x70pkp" data-svelte-h="svelte-y5fk5w">New Puzzle</button></div> </div></div>      </main> <footer class="svelte-1d5q74c" data-svelte-h="svelte-1h3pyfb"><p>© 2025 Nonogram Editor - Version 1.0</p></footer> </div> 
+			
+			<script>
+				{
+					__sveltekit_co0yj6 = {
+						base: new URL(".", location).pathname.slice(0, -1),
+						env: {}
+					};
+
+					const element = document.currentScript.parentElement;
+
+					const data = [null,null];
+
+					Promise.all([
+						import("./_app/immutable/entry/start.668abe8e.js"),
+						import("./_app/immutable/entry/app.d1e12752.js")
+					]).then(([kit, app]) => {
+						kit.start(app, element, {
+							node_ids: [0, 2],
+							data,
+							form: null,
+							error: null
+						});
+					});
+				}
+			</script>
+		</div>
+	</body>
+</html> 
